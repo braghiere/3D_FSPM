@@ -1,0 +1,19 @@
+************************************************************************
+log file for dataset feddes                                                                  
+************************************************************************
+
+
+memory requirements for variably-saturated flow simulation:
+
+estimated number of connections:               52500
+actual number of connections:                  12300
+estimated number of factored connections:      36900
+memory requirement during factorization:       24597
+actual number of factored connections:         12300
+
+initial condition - water flow
+------------------------------------------------------------------------
+
+boundary conditions - water flow
+------------------------------------------------------------------------
+

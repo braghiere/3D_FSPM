@@ -1,0 +1,284 @@
+import java.io.*;
+import static initiation.*;
+import static updates.*;
+import static rewrites.*;
+import static parameters.*;
+import static environment.*;
+import static modules_organs.*;
+import static modules_base.*;
+import static modules_light.*;
+
+
+//const DatasetRef myLineChart = new DatasetRef("DATA-Line-Plot");
+
+
+protected void init()
+{
+	initiate();
+	if (functional == false) {println("!! SET TO FIXED GROWTH AND DEVELOPMENT !!");println();}
+	println("latitude: "+Math.round(latitude*180/Math.PI)+" deg");
+	println("number of species in scene: "+nrSpecies);
+	println("number of strips: "+nrStrips);
+	println("total number of plants: "+globalTotalPlants);
+	println("total area: "+0.01 * Math.round(100 * totalArea)+" m2");
+	println("field dimensions: "+longestStripLength+" x "+fieldWidth+" m (length x width)");
+	println();
+	for (int s=0; s<=totalSpecies-1; s++) {
+		if (spPresence[s] == true) {
+				println("species "+s+": "+speciesNames[s]);
+				println("population density: "+0.01 * Math.round(100 * dens[s])+" plants/m2");
+				println("number of plants: "+totalPlants[s]);
+				println("area: "+0.01 * Math.round(100 * area[s]));
+				println();
+		}
+	}
+	
+			
+	// initialisation of the chart
+	//	myLineChart.clear().setColumnKey(0,"Beta");	
+	//	chart(myLineChart, XY_PLOT);
+
+	// load data from file
+		initParameters();
+
+	// plot data
+	//	for(int i=0; i < beta.length; i++) {
+	//		myLineChart.addRow().(set(0, beta[i]));
+	//		}
+}
+
+
+
+private void step()
+{
+	calcSimTime();
+	println(
+		time+" days, "
+		+realTime+" s, "
+		+"DOY "+dayOfYear
+		+", DL "+0.1*Math.round(10*dayLength)+" h, "
+		+"PPFD "+Math.round(PPFD)+" umol/m2/s, "
+		+"temp "+0.1*Math.round(10*tav)+" C "
+		+"beta "+ beta[time]
+	);
+
+	if (flux == true) {
+		flm.compute();
+	} else {
+		lm.compute();
+	}
+	develop();
+	renew();
+	
+	if (snapShot == true) {
+		if      (time < 10)		{makeSnapshot(path+"basic00"+time+".png");}
+		else if (time < 100)	{makeSnapshot(path+"basic0" +time+".png");}
+		else             		{makeSnapshot(path+"basic"  +time+".png");}
+	}	
+}
+
+
+
+// contains parameter changes in consecutive runs. If no changes, simulations are replicates
+// NB first simulation sims == 0, takes parameters from parameterX.rgg
+void updateParameters()
+{
+/*	// emergence 0
+	if (sims == 0) {
+		delay[weed] = 0; halt = 90;
+		weedDens = 0;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.07071;
+	}
+	if (sims == 1) {weedDens = 100;}
+	if (sims == 2) {weedDens = 200;}
+	if (sims == 3) {
+		weedDens = 0;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.05;
+	}
+	if (sims == 4) {weedDens = 100;}
+	if (sims == 5) {weedDens = 200;}
+	if (sims == 6) {
+		weedDens = 0;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.04082;
+	}
+	if (sims == 7) {weedDens = 100;}
+	if (sims == 8) {weedDens = 200;}
+	
+	//emergence 1
+	if (sims == 9) {
+		delay[weed] = 3; 
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.07071;
+	}
+	if (sims == 10) {weedDens = 200;}
+	if (sims == 11) {
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.05;
+	}
+	if (sims == 12) {weedDens = 200;}
+	if (sims == 13) {
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.04082;
+	}
+	if (sims == 14) {weedDens = 200;}
+
+	//emergence -1
+	if (sims == 15) {
+		delay[weed] = 0; delay[cereal] = 3; halt = 93;
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.07071;
+	}
+	if (sims == 16) {weedDens = 200;}
+	if (sims == 17) {
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.05;
+	}
+	if (sims == 18) {weedDens = 200;}
+	if (sims == 19) {
+		weedDens = 100;
+		rowDistance[cereal] = rowDistance[weed] = plantDistance[cereal] = plantDistance[weed] = 0.04082;
+	}
+	if (sims == 20) {weedDens = 200;}
+*/
+}
+
+public void run()
+{
+	// at the start initiate and clear all tables
+	if (sims == 0 && time == 0) 
+		{initDatasets();}
+	// simulate until end is reached
+	if (end == false && time != halt) {
+		step();
+	} else {
+		sims++;
+		// change parameters and reset scene for next simulation
+		if (sims < nrSims) {
+			updateParameters();
+			resetCounters();
+			reset();
+		// if all simulations are done, write output files
+		} else {
+			stop = System.currentTimeMillis();
+			avgRate = 0.01*Math.round(100 * time / ((stop-start)/1000));
+			println("average simulation rate: "+avgRate+" steps/s");
+			if (writeFieldTable == true) {exportData(fieldOutput, "field");}
+			if (writePlantTable == true) {exportData(plantOutput, "plant");}
+			if (writeTranspTable == true) {exportData(transpOutput, "transp");}
+			if (writeRootTable == true) {exportData(rootOutput, "root");}
+			if (writeLight == true) {exportData(combiLight, "light");}
+			
+		}
+	}
+}
+
+protected void startup() {
+          super.startup();
+          if (de.grogra.pf.boot.Main.getProperty("headless") != null) {
+                   runLater(null);
+          }
+}
+
+
+private void runNrender(int max, boolean renderImages)
+{
+
+	long t = System.currentTimeMillis();
+	reset();
+	//derive();
+	for(apply(5)) run();
+	avgRate = 0.01*Math.round(100 * time / ((stop-start)/1000));
+	println("average simulation rate: "+avgRate+" steps/s");
+	if (writeFieldTable == true) {exportData(fieldOutput, "field");}
+	if (writePlantTable == true) {exportData(plantOutput, "plant");}
+	if (writeTranspTable == true) {exportData(transpOutput, "transp");}
+	if (writeRootTable == true) {exportData(rootOutput, "root");}
+	if (writeLight == true) {exportData(combiLight, "light");}
+    System.gc();
+	t = System.currentTimeMillis() - t;
+	println("Total time: " + t + " ms");
+}
+
+protected void run(Object info)
+{
+	//reset();
+	println("Headless");
+	runNrender(1, true);
+	//derive();
+	graph().dumpNodeStatistics(System.out);
+	System.gc();
+	System.exit(0);
+}
+
+
+ void swColor() {
+	de.grogra.imp3d.View3D view = de.grogra.imp3d.View3D.getDefaultView(workbench());
+	if (sRFR == true) {sRFR = false;} else {sRFR = true;}
+	view.repaint();
+}
+
+/* removes all organs with area > 0; NEEDS TO BE INTEGRATED IN MODULES */
+ void defiolate()
+[
+	go:GrowingOrgan, (go.area > 0) ==>>;
+	{derive();}
+	pb:PlantBase ::> {
+		double x = pb[biomass];
+		pb.updateBiomass();
+		double r = pb[biomass]/x;
+		println(r);
+		pb[reservePool]*=r;
+	}
+]
+
+
+void exportData(DatasetRef dsr, String name) {
+	PrintWriter tmpfile = new PrintWriter(new FileWriter(pathData+name+".txt"));
+	Dataset dataset = dsr.resolve();
+	for(int j=0;j<dataset.getColumnCount(); j++) {
+		tmpfile.print(dataset.getColumnKey(j)+"	");
+	}
+	tmpfile.println();
+	for(int i=0;i<dataset.getRowCount(); i++) {
+		for(int j=0;j<dataset.getColumnCount(); j++) {
+			tmpfile.print(dataset.getCell(i,j)+"	");
+		}
+		tmpfile.println();
+	}
+	tmpfile.flush();
+	tmpfile.close();
+}
+
+ void light() [
+	{
+		lm.compute();
+	}
+	
+	ts:TileSensor ::>
+	{
+		ts.calcLight();
+		ts[length] += 0;
+	}
+]
+
+ void cutNeighb() {
+	if ((double)globalTotalPlants % 2 != 0) {
+		long focalNr = 1 + globalTotalPlants / 2;
+		[
+			pb:PlantBase, (pb[plantNumber] != focalNr) ==>>;
+		]
+	} else {
+		println("There is no central plant; please choose ODD nr of rows and nr of plants per row");
+	}
+}
+
+ void cutFocal() {
+	if ((double)globalTotalPlants % 2 != 0) {
+		long focalNr = 1 + globalTotalPlants / 2;
+		[
+			pb:PlantBase, (pb[plantNumber] == focalNr) ==>>;
+		]
+	} else {
+		println("There is no central plant; please choose ODD nr of rows and nr of plants per row");
+	}
+}

@@ -1,0 +1,1828 @@
+************************************************************************
+MIN3P file information
+************************************************************************
+
+
+************************************************************************
+problem specific input files
+************************************************************************
+
+feddes.dat        problem specific input
+
+
+************************************************************************
+general output files
+************************************************************************
+
+feddes_o.gen      generic output
+feddes_o.dbg      debugging information
+feddes.log        log file
+feddes_o.dt       time step data
+feddes.hyc        initial hydraulic conductivity distribution
+
+
+************************************************************************
+mass balance - variably saturated flow
+************************************************************************
+
+system mass
+------------------------------------------------------------------------
+
+feddes_o.mvs
+
+column   entry                           unit
+1        time                            days        
+2        water mass                      kg
+3        water filled volume             m^3
+4        air filled volume               m^3
+
+mass balance contributions
+------------------------------------------------------------------------
+
+feddes_o.mvc
+
+column   entry                           unit
+1        time                            days        
+2        total inflow                    m^3/day
+3        total outflow                   m^3/day
+4        change in storage               m^3/day
+
+mass balance error
+------------------------------------------------------------------------
+
+feddes_o.mve
+
+column   entry                           unit
+1        time                            days        
+2        absolute mass balance error     m^3
+3        relative mass balance error     % = m^3/m^3 in system x 100
+4        accumulative absolute mass      m^3
+         balance error
+5        accumulative relative mass      % = m^3/m^3 in system x 100
+         balance error
+
+
+************************************************************************
+transient data - global system
+************************************************************************
+
+
+************************************************************************
+contour data - global system
+************************************************************************
+
+Flow variables, initial condition
+------------------------------------------------------------------------
+
+feddes_0.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Flow variables, T =   1.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_1.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_1.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_2.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_2.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_3.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_3.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_4.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_4.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_5.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_5.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   6.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_6.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   6.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_6.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   7.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_7.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   7.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_7.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   8.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_8.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   8.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_8.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   9.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_9.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   9.0000E+00 days        
+------------------------------------------------------------------------
+
+feddes_9.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_10.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_10.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_11.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_11.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_12.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_12.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_13.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_13.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_14.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_14.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_15.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_15.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_16.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_16.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_17.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_17.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_18.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_18.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   1.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_19.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   1.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_19.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_20.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_20.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_21.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_21.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_22.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_22.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_23.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_23.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_24.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_24.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_25.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_25.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_26.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_26.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_27.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_27.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_28.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_28.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   2.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_29.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   2.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_29.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_30.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_30.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_31.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_31.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_32.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_32.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_33.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_33.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_34.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_34.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_35.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_35.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_36.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_36.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_37.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_37.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_38.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_38.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   3.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_39.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   3.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_39.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_40.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_40.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_41.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_41.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_42.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_42.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_43.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_43.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_44.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_44.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_45.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_45.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_46.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_46.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_47.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_47.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_48.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_48.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   4.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_49.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   4.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_49.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_50.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_50.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_51.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.1000E+01 days        
+------------------------------------------------------------------------
+
+feddes_51.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_52.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.2000E+01 days        
+------------------------------------------------------------------------
+
+feddes_52.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_53.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.3000E+01 days        
+------------------------------------------------------------------------
+
+feddes_53.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_54.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.4000E+01 days        
+------------------------------------------------------------------------
+
+feddes_54.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_55.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.5000E+01 days        
+------------------------------------------------------------------------
+
+feddes_55.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_56.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.6000E+01 days        
+------------------------------------------------------------------------
+
+feddes_56.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_57.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.7000E+01 days        
+------------------------------------------------------------------------
+
+feddes_57.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_58.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.8000E+01 days        
+------------------------------------------------------------------------
+
+feddes_58.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   5.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_59.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   5.9000E+01 days        
+------------------------------------------------------------------------
+
+feddes_59.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d
+
+Flow variables, T =   6.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_60.gsp
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        hydraulic head                  m
+5        pressure head                   m
+6        water saturation                -
+7        water content                   -
+8        plant transpiration rate        m^3/s
+9        physical evaporation rate       m^3/s
+
+Average interfacial velocities, T =   6.0000E+01 days        
+------------------------------------------------------------------------
+
+feddes_60.vel
+
+column   entry                           unit
+1        x                               m
+2        y                               m
+3        z                               m
+4        v_x                             m/d
+5        v_y                             m/d
+6        v_z                             m/d

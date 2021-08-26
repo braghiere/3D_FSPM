@@ -1,0 +1,308 @@
+generic output file for dataset feddes                                                                  
+
+------------------------------------------------------------------------
+global control parameters
+------------------------------------------------------------------------
+
+water uptake, feddes correction, 50 x 50 cv                             
+
+simulation of:
+transient variably saturated flow 
+
+------------------------------------------------------------------------
+spatial discretization
+------------------------------------------------------------------------
+
+number of control volumes in x-direction        =        100
+number of control volumes in y-direction        =          1
+number of control volumes in z-direction        =        100
+total number of control volumes                 =      10000
+
+------------------------------------------------------------------------
+time step control - global system
+------------------------------------------------------------------------
+
+start time of simulation                        =  0.000E+00 days        
+initial time step                               =  1.000E-10 days        
+max. time step                                  =  1.000E+00 days        
+min. time step                                  =  1.000E-10 days        
+
+------------------------------------------------------------------------
+control parameters - water flow
+------------------------------------------------------------------------
+
+input of boundary and initial conditions in terms of hydraulic head
+upstream weighting of relative permeabilities        
+computation of underrelaxation factor                
+max. allowed update                             =  1.000E+01
+increment for numerical differentiation         =  1.000E-04
+max. number of newton iterations                =        100
+convergence tolerance                           =  1.000E-06
+anticipated change in saturation per time step  =  1.000E-01
+incomplete factorization level                  =          0
+max. number of solver iterations                =         85
+solver information level                        =          1
+solver residual tolerance                       =  1.000E-07
+solver update tolerance                         =  1.000E-07
+reverse Cuthill McKee ordering
+
+------------------------------------------------------------------------
+physical parameters - porous medium
+------------------------------------------------------------------------
+
+number of material property zones               =          1
+
+material property zone 1: soil
+------------------------------------------------------------------------
+porosity                                        =  4.280E-01
+skipped time steps in log,mass balance files and on screen =   0
+
+------------------------------------------------------------------------
+output control
+------------------------------------------------------------------------
+
+number of output times for spatial data         =         60
+specified output times for spatial data:          
+
+T =  1.000E+00 days        
+T =  2.000E+00 days        
+T =  3.000E+00 days        
+T =  4.000E+00 days        
+T =  5.000E+00 days        
+T =  6.000E+00 days        
+T =  7.000E+00 days        
+T =  8.000E+00 days        
+T =  9.000E+00 days        
+T =  1.000E+01 days        
+T =  1.100E+01 days        
+T =  1.200E+01 days        
+T =  1.300E+01 days        
+T =  1.400E+01 days        
+T =  1.500E+01 days        
+T =  1.600E+01 days        
+T =  1.700E+01 days        
+T =  1.800E+01 days        
+T =  1.900E+01 days        
+T =  2.000E+01 days        
+T =  2.100E+01 days        
+T =  2.200E+01 days        
+T =  2.300E+01 days        
+T =  2.400E+01 days        
+T =  2.500E+01 days        
+T =  2.600E+01 days        
+T =  2.700E+01 days        
+T =  2.800E+01 days        
+T =  2.900E+01 days        
+T =  3.000E+01 days        
+T =  3.100E+01 days        
+T =  3.200E+01 days        
+T =  3.300E+01 days        
+T =  3.400E+01 days        
+T =  3.500E+01 days        
+T =  3.600E+01 days        
+T =  3.700E+01 days        
+T =  3.800E+01 days        
+T =  3.900E+01 days        
+T =  4.000E+01 days        
+T =  4.100E+01 days        
+T =  4.200E+01 days        
+T =  4.300E+01 days        
+T =  4.400E+01 days        
+T =  4.500E+01 days        
+T =  4.600E+01 days        
+T =  4.700E+01 days        
+T =  4.800E+01 days        
+T =  4.900E+01 days        
+T =  5.000E+01 days        
+T =  5.100E+01 days        
+T =  5.200E+01 days        
+T =  5.300E+01 days        
+T =  5.400E+01 days        
+T =  5.500E+01 days        
+T =  5.600E+01 days        
+T =  5.700E+01 days        
+T =  5.800E+01 days        
+T =  5.900E+01 days        
+T =  6.000E+01 days        
+ 
+output of transient data:
+
+number of time steps between output of          =          1
+transient data
+number of spatial locations for output of       =          0
+transient data
+control volume numbers and spatial locations:
+
+
+output in terms of elevation
+
+------------------------------------------------------------------------
+water flow parameters
+------------------------------------------------------------------------
+
+ dual permeability off
+
+material property zone 1: soil
+------------------------------------------------------------------------
+saturated hydraulic conductivity K_xx           =  5.800E-06
+saturated hydraulic conductivity K_zz           =  5.800E-06
+specific storage coefficient                    =  1.000E-05
+
+van genuchten parameters:
+alpha                                           =  1.200E+00
+beta                                            =  1.380E+00
+gamma                                           =  2.754E-01
+expn                                            =  5.000E-01
+air entry pressure                              =  0.000E+00
+air dry saturation                              =  1.000E+00
+
+------------------------------------------------------------------------
+initial condition - water flow
+------------------------------------------------------------------------
+
+
+for detailed output see file feddes_0.gsp
+
+------------------------------------------------------------------------
+boundary conditions - water flow
+------------------------------------------------------------------------
+
+number of boundary zones                        =          2
+
+zone 1: Top                                                                     
+------------------------------------------------------------------------
+volume   boundary type   specified flux
+
+
+zone 2: bottom                                                                  
+------------------------------------------------------------------------
+volume   boundary type   hydraulic head
+
+     1   first          -5.000E+00
+     2   first          -5.000E+00
+     3   first          -5.000E+00
+     4   first          -5.000E+00
+     5   first          -5.000E+00
+     6   first          -5.000E+00
+     7   first          -5.000E+00
+     8   first          -5.000E+00
+     9   first          -5.000E+00
+    10   first          -5.000E+00
+    11   first          -5.000E+00
+    12   first          -5.000E+00
+    13   first          -5.000E+00
+    14   first          -5.000E+00
+    15   first          -5.000E+00
+    16   first          -5.000E+00
+    17   first          -5.000E+00
+    18   first          -5.000E+00
+    19   first          -5.000E+00
+    20   first          -5.000E+00
+    21   first          -5.000E+00
+    22   first          -5.000E+00
+    23   first          -5.000E+00
+    24   first          -5.000E+00
+    25   first          -5.000E+00
+    26   first          -5.000E+00
+    27   first          -5.000E+00
+    28   first          -5.000E+00
+    29   first          -5.000E+00
+    30   first          -5.000E+00
+    31   first          -5.000E+00
+    32   first          -5.000E+00
+    33   first          -5.000E+00
+    34   first          -5.000E+00
+    35   first          -5.000E+00
+    36   first          -5.000E+00
+    37   first          -5.000E+00
+    38   first          -5.000E+00
+    39   first          -5.000E+00
+    40   first          -5.000E+00
+    41   first          -5.000E+00
+    42   first          -5.000E+00
+    43   first          -5.000E+00
+    44   first          -5.000E+00
+    45   first          -5.000E+00
+    46   first          -5.000E+00
+    47   first          -5.000E+00
+    48   first          -5.000E+00
+    49   first          -5.000E+00
+    50   first          -5.000E+00
+    51   first          -5.000E+00
+    52   first          -5.000E+00
+    53   first          -5.000E+00
+    54   first          -5.000E+00
+    55   first          -5.000E+00
+    56   first          -5.000E+00
+    57   first          -5.000E+00
+    58   first          -5.000E+00
+    59   first          -5.000E+00
+    60   first          -5.000E+00
+    61   first          -5.000E+00
+    62   first          -5.000E+00
+    63   first          -5.000E+00
+    64   first          -5.000E+00
+    65   first          -5.000E+00
+    66   first          -5.000E+00
+    67   first          -5.000E+00
+    68   first          -5.000E+00
+    69   first          -5.000E+00
+    70   first          -5.000E+00
+    71   first          -5.000E+00
+    72   first          -5.000E+00
+    73   first          -5.000E+00
+    74   first          -5.000E+00
+    75   first          -5.000E+00
+    76   first          -5.000E+00
+    77   first          -5.000E+00
+    78   first          -5.000E+00
+    79   first          -5.000E+00
+    80   first          -5.000E+00
+    81   first          -5.000E+00
+    82   first          -5.000E+00
+    83   first          -5.000E+00
+    84   first          -5.000E+00
+    85   first          -5.000E+00
+    86   first          -5.000E+00
+    87   first          -5.000E+00
+    88   first          -5.000E+00
+    89   first          -5.000E+00
+    90   first          -5.000E+00
+    91   first          -5.000E+00
+    92   first          -5.000E+00
+    93   first          -5.000E+00
+    94   first          -5.000E+00
+    95   first          -5.000E+00
+    96   first          -5.000E+00
+    97   first          -5.000E+00
+    98   first          -5.000E+00
+    99   first          -5.000E+00
+ growing vegetation
+
+global transpiration parameters
+fitting parameter REW_0:                        =  2.000E+00
+fitting parameter p1:                           = -2.000E+00
+canopy evaporation factor:                      =  1.000E-01
+
+
+correction method for water stress :            =           4
+
+
+root uptake parameters:
+saturation at wilting point:                    =  2.197E-01
+saturation at field capacity:                   =  8.110E-01
+root length density         :                   =  0.000E+00
+
+
+statistics - variably saturated flow ...
+------------------------------------------------------------------------
+
+total number of Newton iterations       =        477
+total number of solver iterations       =       5938
+
+general run specific statistics ...
+------------------------------------------------------------------------
+
+number of failed time steps             =          0
+total number of time steps              =         75
+cputime  = 55.00 sec

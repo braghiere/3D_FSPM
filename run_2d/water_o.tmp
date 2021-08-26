@@ -1,0 +1,19 @@
+2                             ;number of zones                          
+'transient boundary conditions'                                         
+'number and name of zone'                                               
+1                                                                       
+'Top'                                                                   
+'boundary type'                                                         
+'second' 0.0                          ;flux condition                   
+'extent of zone'                                                        
+0.0 1.  0.0 1.0  1.0 1.0                                                
+'end of zone'                                                           
+'number and name of zone'                                               
+2                                                                       
+'bottom'                                                                
+'boundary type'                                                         
+'first' -5.0E0                          ;null                           
+'extent of zone'                                                        
+0.0 1.  0.0 1.0  0.0 0.0                                                
+'end of zone'                                                           
+'done'                                                                  

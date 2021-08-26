@@ -1,0 +1,15 @@
+'hydraulic conductivity in x-direction'                                 
+5.8E-6                      ;K_xx                                       
+'hydraulic conductivity in z-direction'                                 
+5.8E-6                      ;K_zz                                       
+'specific storage coefficient'                                          
+1E-5                                                                    
+'soil hydraulic function parameters'                                    
+0.072                        ;residual saturation                       
+1.20                        ;van genuchten - alpha                      
+1.38                         ;van genuchten - n                         
+0.5                          ;expn                                      
+0.0                           ;air entry pressure                       
+0.0                        ;psidry (air-dry pressure head)              
+'end of zone'                                                           
+'done'                                                                  

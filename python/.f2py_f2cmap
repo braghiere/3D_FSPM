@@ -1,0 +1,7 @@
+{'integer': {'4': 'int', 'type_i4': 'int'},
+ 'real': {'4': 'float',
+          '8': 'double',
+          'c_double': 'double',
+          'c_float': 'float',
+          'type_r4': 'float',
+          'type_r8': 'double'}}

@@ -1,0 +1,14 @@
+Different scenarios:
+
+run1 -> Iso monocot
+run_1a -> Mono_Beta monocot
+run_1b -> Beta sensitivity monocot
+run_1c -> Iso_Beta monocot
+run_1d -> Mono monocot
+run2 -> Iso dicot
+run_2a -> Mono Beta dicot
+run_2b -> Beta sensitivity dicot
+run_2c -> Iso_Beta dicot
+run_2d -> Mono dicot
+run_3 -> Inter
+run_3c -> Inter_Beta

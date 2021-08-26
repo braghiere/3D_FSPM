@@ -1,0 +1,23 @@
+60      P_duree (cereal)
+0.5     P_vitEmissionSem
+0.7     P_propDiamSem
+35      P_nbMaxSem
+100     P_ageEmissionAdv
+30      P_dBaseMaxAdv
+0.8     P_vitEmissionAdv
+1.2     P_propDiamAdv
+40      P_nbMaxAdv
+0.14    P_diamMin
+1       P_diamMax
+35      P_penteVitDiam
+1       P_tendanceDirTropisme
+0.002   P_intensiteTropisme
+4.5     P_ageMaturitePointe
+2.5     P_distRamif (mm)
+0.11    P_propDiamRamif
+0.22    P_coeffVarDiamRamif
+0.10    P_TMD
+100     P_penteDureeCroissDiam2
+1000    P_penteDureeVieDiamTMD
+0       P_coeffCroissRad 
+1       feedback effect = 2; no feedback effect = 1

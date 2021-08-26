@@ -1,0 +1,8 @@
+'read initial condition from file'                                      
+1                                                                       
+'profil'                                                                
+'initial condition'                                                     
+-5.0                          ;hydraulic head                           
+'extent of zone'                                                        
+0.0 2  0.0 2  0.0 2                                                     
+'done'                                                                  

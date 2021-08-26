@@ -1,0 +1,1322 @@
+************************************************************************
+log file for dataset water                                                                   
+************************************************************************
+
+
+memory requirements for variably-saturated flow simulation:
+
+estimated number of connections:              210000
+actual number of connections:                  49600
+estimated number of factored connections:     148800
+memory requirement during factorization:       99197
+actual number of factored connections:         49600
+
+initial condition - water flow
+------------------------------------------------------------------------
+
+boundary conditions - water flow
+------------------------------------------------------------------------
+
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4931D-07   7.2399D-40        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.4654D-07   1.9411D-36        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.7327D-06   6.0658D-33        1         101         100
+     2       2.3777D-11   3.8810D-38        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.8663D-05   1.9039D-29        1         101         100
+     2       1.0045D-10   1.0248D-34        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.3315D-05   5.9494D-26        1         200         100
+     2       4.1280D-11   2.6322D-32        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.6652D-04   1.8586D-22        1         101         100
+     2       1.1314D-08   4.5095D-27        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.3312D-03   5.7992D-19        1         101         100
+     2       3.4405D-07   8.5774D-23        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.1622D-02   1.7983D-15        1         101         200
+     2       8.8417D-06   1.3851D-18        1         101         100
+     3       4.5517D-09   7.1267D-22        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.7259D-02   5.4162D-12        1         101         200
+     2       2.1433D-04   2.1388D-14        1         102         200
+     3       5.4134D-07   5.3874D-17        1         101           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.6654D-01   1.4086D-08        1         197         300
+     2       4.4834D-03   3.0311D-10        1         106         300
+     3       5.2545D-05   3.4979D-12        1         102         200
+     4       5.5945D-10   3.5552D-17        1         102           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.7279D-01   6.5025D-11        2         197         500
+     2       5.3712D-02   8.1467D-12        2         197         400
+     3       2.3284D-03   9.7862D-08        1         197         300
+     4       4.3818D-07   1.7147D-11        1         102           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.7402D+00   2.3106D-09        3         129        2700
+     2       1.4996D-01   5.5133D-10        3         129         800
+     3       1.2764D-02   3.5044D-11        3         121         700
+     4       2.3584D-05   5.3833D-10        2         254         400
+     5       2.9817D-08   1.3991D-10        1         219           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.8620D+00   5.3644D-08        4         279        3200
+     2       2.1532D-01   2.9460D-08        4         279        1400
+     3       2.8022D-02   4.0182D-09        4         279        1200
+     4       1.3817D-04   1.7762D-09        3         279         800
+     5       9.3802D-09   4.6268D-10        1         301           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0120D+00   4.7742D-08        7         314        5400
+     2       2.8843D-01   9.6221D-09        8         314        2600
+     3       4.8866D-02   8.1223D-08        6         314        2300
+     4       3.8510D-04   1.7085D-08        5         314        1500
+     5       3.7956D-08   9.7836D-09        1         391           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0581D+00   9.2001D-09       13         654        5400
+     2       3.0576D-01   6.1283D-08       14         654        4500
+     3       5.5715D-02   4.6616D-08       12         520        4000
+     4       5.1800D-04   6.2205D-08        9         520        2600
+     5       6.9718D-08   4.4907D-08        1         701           0
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0956D+00   8.2902D-08       22        1090        8900
+     2       3.3032D-01   1.2412D-07       22        1090        8100
+     3       6.5543D-02   7.6667D-08       18         990        7100
+     4       7.4001D-04   7.9193D-08       14         990        4544
+     5       1.0219D-07   8.6468D-08        1         990           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3262D+00   8.3008D-08       30         120        9900
+     2       1.3226D+00   5.0163D-08       27         120        9300
+     3       1.0217D+00   7.2358D-08       34         101        8900
+     4       4.5627D-01   8.4450D-08       31         111        8400
+     5       6.8110D-02   6.9372D-08       27         111        7100
+     6       1.2925D-03   8.2697D-08       18         111        4500
+     7       4.8767D-07   7.5102D-08        2         111           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.5845D-01   1.8816D-08       29         520        9900
+     2       1.1130D-01   8.0158D-08       25         511        8599
+     3       1.9684D-03   9.5575D-08       18         511        4500
+     4       7.6194D-07   6.4144D-08        3         511           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.7812D-01   9.7325D-08       25         812        9900
+     2       1.9795D-02   8.9400D-08       24         899        8392
+     3       5.3217D-05   7.8012D-08       11         899        2567
+     4       8.6376D-08   5.0844D-08        1        3009           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.2247D-01   8.2101D-08       26        1082        9900
+     2       5.9178D-03   6.6089D-08       22        1034        8106
+     3       4.7859D-06   7.2182D-08        6        1034        1201
+     4       8.5919D-08   4.4305D-08        1        2150           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4622D-01   1.6118D-07       22        1201        9900
+     2       2.3388D-03   7.8260D-08       19        1222        7002
+     3       7.4690D-07   7.3910D-08        3        1384           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0339D-01   4.7936D-08       21        1401        9900
+     2       1.1018D-03   9.9028D-08       17        1449        7433
+     3       9.4835D-08   1.1148D-07        1        1449           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.6903D-02   1.6453D-08       22        1601        9900
+     2       5.8694D-04   9.0584D-08       16        1520        7898
+     3       5.2083D-08   8.1367D-08        1        1620           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.9493D-02   7.8338D-08       24        1701        9900
+     2       3.4142D-04   7.4424D-08       15        1720        8491
+     3       4.1872D-08   6.2330D-08        1        5519           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       4.7373D-02   6.7133D-08       22        1801        9900
+     2       2.1292D-04   7.9215D-08       13        1822        9115
+     3       6.3373D-08   6.1348D-08        1        5403           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.8630D-02   6.4532D-08       19        2063        9900
+     2       1.3889D-04   6.9448D-08       13        1919        9376
+     3       4.0129D-08   5.5070D-08        1        5603           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.2122D-02   7.5135D-08       21        2160        9900
+     2       9.4969D-05   8.3367D-08       12        2115        9521
+     3       1.1301D-07   4.6975D-08        1        5305           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.7135D-02   9.8992D-08       19        2249        9900
+     2       6.7741D-05   9.3144D-08       11        2201        9147
+     3       9.7515D-08   5.6318D-08        1        5205           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.3226D-02   3.9072D-07       18        2350        9900
+     2       4.9857D-05   6.7102D-08       11        2399        9173
+     3       8.6884D-08   3.6359D-08        1        5305           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0107D-02   6.2789D-08       20        2449        9900
+     2       3.7421D-05   7.4965D-08       10        2500        8664
+     3       1.1964D-07   3.4897D-08        1        5304           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.7576D-02   2.8012D-07       18        2549        9898
+     2       2.9013D-05   7.9866D-08        9        2501        8409
+     3       1.0708D-07   4.2823D-08        1        5303           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.5495D-02   5.6054D-08       20        2649        9899
+     2       2.2588D-05   9.6199D-08        8        2700        7782
+     3       1.7640D-07   3.8162D-08        1        5303           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3761D-02   7.6543D-08       21        2749        9898
+     2       1.8031D-05   7.9761D-08        8        2701        7002
+     3       1.3980D-07   3.1946D-08        1        5403           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2305D-02   4.2040D-08       20        2749        9900
+     2       1.4413D-05   6.5402D-08        8        2801        6029
+     3       1.0509D-07   2.6720D-08        1        5603           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0690D-02   9.0666D-08       22        9645        9897
+     2       3.0819D-05   6.8171D-08        9        9645        5391
+     3       1.2992D-07   2.6858D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0011D-02   8.8353D-08       20        2949        9900
+     2       9.7876D-06   8.9668D-08        7        3001        4901
+     3       1.0550D-07   4.1310D-08        1        5681           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.1014D-03   8.5479D-08       21        3048        9900
+     2       8.1905D-06   8.7069D-08        7        3101        4688
+     3       1.1009D-07   3.7920D-08        1        1282           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.7800D-02   7.4682D-08       22        9653        9900
+     2       2.3126D-05   7.8620D-08        8        9653        4701
+     3       1.7149D-07   3.6107D-08        1        9754           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.2153D-02   6.4248D-08       23        9645        9898
+     2       1.9586D-04   7.6646D-08       11        9645        5725
+     3       1.7405D-07   6.2724D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.0858D-02   6.8578D-08       23        9653        9898
+     2       1.6916D-04   6.9920D-08       11        9653        5807
+     3       1.7003D-07   5.7422D-08        1        9653           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.1573D-02   6.3981D-08       24        9645        9900
+     2       3.5937D-04   8.8689D-08       12        9645        6219
+     3       3.8581D-07   8.8156D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0197D-01   6.6535D-08       25        9653        9900
+     2       7.7180D-04   6.4848D-08       14        9653        6936
+     3       1.3516D-06   7.7005D-08        2        9653          13
+     4       2.4824D-07   4.2685D-08        1        9948           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.0309D-02   6.5894D-08       24        9744        9899
+     2       1.2460D-04   9.7871D-08       11        9944        6749
+     3       2.4065D-07   7.2838D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.3244D-01   7.6717D-08       25        9653        9900
+     2       1.1206D-03   9.5887D-08       14        9653        7252
+     3       3.4976D-06   9.1094D-08        3        9653         177
+     4       2.3296D-07   4.8343D-08        1        9938           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       7.2138D-02   6.4323D-08       25        9742        9900
+     2       2.9375D-04   7.2549D-08       13        9742        6892
+     3       2.8606D-07   7.7407D-08        1        9643           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.4985D-01   6.9449D-08       26        9653        9900
+     2       1.6417D-03   8.1479D-08       15        9653        7197
+     3       5.5447D-06   6.6204D-08        4        9653         138
+     4       1.7206D-07   3.5175D-08        1        9844           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.9717D-01   9.8389D-08       27        9645        9900
+     2       1.1023D-02   6.5495D-08       19        9645        7162
+     3       8.9293D-05   5.9384D-08        9        9645        1519
+     4       2.2182D-07   5.8584D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.3691D-01   7.9459D-08       27        9653        9900
+     2       7.1744D-03   7.7248D-08       18        9653        7168
+     3       6.3985D-05   6.8869D-08        8        9653         870
+     4       1.8989D-07   5.4165D-08        1        9653           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       2.0071D-01   8.7369D-08       26        9645        9900
+     2       1.7943D-03   9.8858D-08       16        9745        7106
+     3       1.0737D-05   8.3112D-08        5        9645         403
+     4       2.0714D-07   4.7272D-08        1        9954           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.5530D-01   7.7325D-08       27        9552        9900
+     2       5.9018D-03   8.2132D-08       18        9552        7258
+     3       6.8245D-05   7.1722D-08        8        9552        1243
+     4       2.3510D-07   6.2937D-08        1        9653           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       5.3378D-01   7.6869D-08       28        9645        9900
+     2       1.5794D-02   5.9338D-08       20        9645        7211
+     3       2.1082D-04   6.1730D-08       10        9645        1835
+     4       1.2919D-06   6.5120D-08        2        9645           9
+     5       1.7077D-07   3.4091D-08        1        9949           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       6.8562D-01   8.4400D-08       28        9551        9900
+     2       2.0587D-02   8.2328D-08       20        9552        7398
+     3       4.0884D-04   6.4866D-08       11        9551        3369
+     4       4.0512D-06   7.5782D-08        3        9551         168
+     5       1.7314D-07   3.6633D-08        1        9958           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.7837D-01   6.2271D-08       29        9550        9900
+     2       3.4229D-02   6.8924D-08       21        9450        7585
+     3       1.0535D-03   7.6623D-08       12        9551        4612
+     4       1.6364D-05   6.4368D-08        5        9745         514
+     5       1.9341D-07   4.7214D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.2332D+00   3.3535D-08       29        9745        9900
+     2       5.1265D-02   9.1706D-08       21        9745        7578
+     3       1.8996D-03   9.0762D-08       12        9745        4314
+     4       3.6135D-05   4.9468D-08        6        9745         749
+     5       5.4573D-07   9.2427D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.6480D-01   6.9088D-08       27        9551        9900
+     2       1.6225D-02   6.7541D-08       21        9751        7808
+     3       4.7833D-04   6.0358D-08       11        9552        3216
+     4       7.9218D-06   5.0667D-08        4        9552         190
+     5       1.1821D-07   3.0250D-08        1        9551           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.5542D+00   7.1759D-08       29        9645        9900
+     2       3.2894D-02   8.9811D-08       21        9645        8133
+     3       1.8478D-03   7.3783D-08       12        9645        5082
+     4       5.1475D-05   6.4448D-08        6        9745        1181
+     5       1.9643D-06   7.4950D-08        2        9645          56
+     6       1.8703D-07   3.6132D-08        1        9949           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.5290D+00   9.7369D-08       28        9551        9900
+     2       4.0865D-02   9.7914D-08       21        9645        8300
+     3       1.0483D-03   9.1042D-08       13        9745        5867
+     4       2.5528D-05   7.0077D-08        6        9745         460
+     5       4.7223D-07   8.6891D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.2006D+00   1.3131D-08       31        9645        9900
+     2       1.8221D-01   6.5058D-08       24        9645        8548
+     3       1.4747D-02   9.0785D-08       14        9745        5203
+     4       7.7409D-04   8.0303D-08       10        9745        2257
+     5       5.7735D-05   8.2560D-08        5        9745         323
+     6       2.9662D-06   7.9605D-08        2        9745          53
+     7       1.3092D-07   2.7707D-08        1        9949           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.7822D+00   6.6375D-08       30        9645        9900
+     2       9.9332D-02   8.5414D-08       23        9645        8821
+     3       1.3340D-02   9.3125D-08       15        9745        6815
+     4       6.2831D-04   1.8973D-07       11        9745        4464
+     5       7.5900D-05   5.7912D-08        6        9745         366
+     6       4.8819D-06   4.4414D-08        3        9745          95
+     7       2.9589D-07   4.4137D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       3.0984D+00   6.9317D-08       26        9547        9900
+     2       2.9845D-01   4.7308D-08       20        9645        9041
+     3       2.7140D-02   6.4036D-08       18        9745        7287
+     4       2.2445D-03   6.2060D-08       11        9745        5812
+     5       2.0639D-04   9.8661D-08        6        9745         558
+     6       1.7213D-05   4.2689D-08        4        9745         176
+     7       1.3746D-06   3.7225D-08        2        9745           8
+     8       3.9962D-08   1.9383D-08        1        9950           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       6.3468D+00   5.7430D-08       29        9546        9900
+     2       6.9442D-01   5.3849D-08       23        9745        9253
+     3       1.3790D-01   9.6731D-08       19        9645        7812
+     4       1.1908D-02   1.3701D-07       13        9645        7194
+     5       2.2130D-03   6.4984D-08       10        9645        3079
+     6       2.3325D-04   7.4368D-08        7        9645        1342
+     7       3.8948D-05   7.5461D-08        4        9645         231
+     8       4.3022D-06   8.6865D-08        2        9645          70
+     9       3.5613D-07   3.7166D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   4.8938D-08       29        9451        9900
+     2       1.7036D+00   1.1454D-07       22        9645        9900
+     3       3.9512D-01   6.8738D-08       23        9646        9896
+     4       6.0355D-02   5.9727D-08       16        9551        9639
+     5       1.4616D-02   8.8564D-08       14        9551        7645
+     6       2.3394D-03   2.9179D-07        9        9551        5251
+     7       5.3002D-04   8.6497D-08        7        9551         496
+     8       9.1544D-05   6.6035D-08        5        9551         276
+     9       1.9527D-05   8.5978D-08        3        9551         167
+    10       3.2335D-06   5.9875D-08        2        9451          52
+    11       4.6529D-07   4.9806D-08        1        9451           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       9.6450D+00   4.9248D-08       28        9546        9900
+     2       2.5970D+00   1.0030D-08       23        9645        9473
+     3       6.0227D-01   8.1370D-08       22        9645        8507
+     4       1.0857D-01   3.0947D-07       14        9745        7946
+     5       2.7280D-02   7.9039D-08       14        9645        6593
+     6       4.8394D-03   2.9199D-08       11        9645        4968
+     7       1.1708D-03   5.2447D-08        7        9645         549
+     8       2.1988D-04   5.8981D-08        5        9645         272
+     9       5.0933D-05   4.2881D-08        4        9645         184
+    10       9.8805D-06   2.8129D-08        3        9645          90
+    11       2.1095D-06   3.1962D-08        2        9645          19
+    12       3.0198D-07   2.7580D-08        1        9645           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   7.5064D-08       31        9451        9900
+     2       8.6720D+00   8.3407D-08       25        9451        9900
+     3       4.3360D+00   2.3634D-07       19        9451        9526
+     4       6.6149D-01   2.9241D-07       17        9250        9413
+     5       3.3074D-01   9.1448D-08       17        9451        7941
+     6       8.1842D-02   9.0079D-08       15        9048        7313
+     7       3.7622D-02   7.8786D-08       14        9451        5927
+     8       7.2235D-03   3.2891D-08       11        9550        3413
+     9       2.0682D-03   6.5887D-08        7        9550         614
+    10       5.4316D-04   8.0043D-08        5        9550         431
+    11       1.9611D-04   3.1697D-08        5        9451         261
+    12       5.6979D-05   3.5993D-08        4        9451         204
+    13       2.0152D-05   5.1604D-08        3        9451         142
+    14       5.7947D-06   7.8130D-08        2        9451          78
+    15       1.9041D-06   2.6099D-08        2        9451          25
+    16       4.8232D-07   4.8214D-08        1        9451           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   9.2577D-08       29        9451        9900
+     2       1.0000D+01   6.0764D-08       25        9452        9900
+     3       5.0000D+00   2.0680D-07       20        9451        9900
+     4       3.3782D+00   1.0544D-07       19        9451        9900
+     5       1.6891D+00   2.6705D-07       17        9451        8763
+     6       6.5995D-01   2.8293D-08       18        9452        8319
+     7       3.2998D-01   8.8333D-08       17        9451        7524
+     8       9.8711D-02   9.8684D-08       13        9452        6909
+     9       4.9355D-02   6.4000D-08       14        9451        5417
+    10       1.2780D-02   7.1693D-08       10        9452        4395
+    11       6.3898D-03   8.8591D-08       10        9451        2643
+    12       1.4668D-03   6.1422D-08        7        9346        1470
+    13       6.2822D-04   5.2093D-08        6        9452         502
+    14       2.3402D-04   7.3878D-08        4        9451         300
+    15       8.2292D-05   3.1234D-08        4        9451         201
+    16       3.2885D-05   5.6556D-08        3        9451         152
+    17       1.1510D-05   1.7809D-08        3        9451         105
+    18       4.5567D-06   5.0838D-08        2        9451          57
+    19       1.5520D-06   1.4907D-08        2        9451          11
+    20       5.6604D-07   5.2555D-08        1        9451           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   5.7311D-08       24        9451        9900
+     2       7.2806D+00   3.3313D-08       29        9051        9900
+     3       3.6403D+00   7.6217D-08       19        9452        9486
+     4       1.5642D+00   7.8567D-08       19        9150        9452
+     5       7.8210D-01   8.2871D-08       17        9452        8838
+     6       2.3327D-01   1.1318D-07       15        8948        8254
+     7       9.6424D-02   9.3647D-08       14        9150        7025
+     8       3.1852D-02   7.3278D-08       10        9451        1811
+     9       1.3853D-02   6.8408D-08       10        9451        2599
+    10       4.4687D-03   6.3222D-08        7        9451        1244
+    11       1.9631D-03   6.1269D-08        6        9451         494
+    12       6.2198D-04   3.4699D-08        5        9451         334
+    13       2.7363D-04   7.6733D-08        4        9451         247
+    14       8.5707D-05   8.4356D-08        3        9451         183
+    15       3.7716D-05   4.5141D-08        3        9451         146
+    16       1.1612D-05   7.5592D-08        2        9451          85
+    17       5.0623D-06   3.8231D-08        2        9451          46
+    18       1.4543D-06   8.4473D-08        1        9451           6
+    19       5.6429D-07   3.1649D-08        1        9451           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   4.6661D-08       29        9452        9900
+     2       5.5584D+00   3.3431D-07       26        8549        9900
+     3       2.5377D+00   1.0302D-07       22        9254        9675
+     4       9.0264D-01   5.8827D-08       17        9452        9367
+     5       4.0344D-01   1.8247D-07       16        9451        8908
+     6       1.4573D-01   4.0850D-08       15        9451        8524
+     7       6.5661D-02   8.7432D-08       13        9451        7726
+     8       2.3534D-02   9.4229D-08       12        9451        6955
+     9       1.0692D-02   1.3659D-07        9        9451        4945
+    10       3.7570D-03   6.2219D-08        9        9451        3023
+    11       1.7272D-03   9.0579D-08        7        9451         470
+    12       5.8879D-04   6.1976D-08        5        9451         438
+    13       2.7420D-04   8.7466D-08        4        9451         257
+    14       8.9671D-05   3.2836D-08        4        9451         206
+    15       4.2313D-05   6.2544D-08        3        9451         169
+    16       1.3277D-05   9.9647D-08        2        9646         115
+    17       6.3067D-06   6.2808D-08        2        9646          78
+    18       1.8412D-06   1.8359D-08        2        9646          23
+    19       8.6295D-07   9.0642D-08        1        9646           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   6.0297D-08       28        9553        9900
+     2       4.5606D+00   3.1684D-08       29        9451        9900
+     3       1.5373D+00   5.4264D-08       26        9451        9900
+     4       7.6864D-01   6.9361D-08       21        9745        9900
+     5       2.0637D-01   5.5684D-08       22        9745        9900
+     6       1.0319D-01   9.8304D-08       18        9745        9900
+     7       1.6832D-02   9.8104D-08       18        9745        9900
+     8       8.4158D-03   1.8859D-08       15        9745        9660
+     9       8.6947D-04   1.6033D-08       14        9949        9752
+    10       7.2756D-04   6.6367D-08       10        9745        7797
+    11       3.6378D-04   7.8070D-08        4        9745         305
+    12       1.4378D-04   8.8936D-08        3        9745         311
+    13       7.1892D-05   8.4267D-08        3        9745         201
+    14       2.8528D-05   2.5052D-08        3        9745         180
+    15       1.4264D-05   2.0577D-08        3        9745          82
+    16       6.6038D-06   3.1329D-08        2        9550          65
+    17       3.3019D-06   3.1285D-08        2        9745          31
+    18       7.5757D-07   3.2633D-08        1        9550           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   7.1078D-08       28        9043        9900
+     2       5.0000D+00   7.3359D-08       22        9645        9900
+     3       1.5126D+00   7.5815D-08       22        9245        9900
+     4       7.5628D-01   1.8323D-07       17        9445        9502
+     5       2.4742D-01   2.9092D-08       18        9745        9469
+     6       1.2371D-01   2.5908D-08       15        9745        8204
+     7       1.1961D-02   1.1257D-07       13        9745        8347
+     8       5.9806D-03   1.6945D-07        9        9745        2880
+     9       1.9939D-03   9.6986D-08        8        9245        3130
+    10       1.6429D-03   7.8768D-08        5        9550         890
+    11       1.8386D-03   4.7469D-08        5        9745         609
+    12       9.1931D-04   4.7385D-08        5        9745         409
+    13       3.1285D-04   4.1023D-08        4        9550         399
+    14       2.5842D-04   1.6497D-08        4        9745         323
+    15       1.2921D-04   1.9965D-08        4        9745         240
+    16       5.4133D-05   2.8869D-08        3        9745         243
+    17       2.7067D-05   3.1237D-08        3        9745         163
+    18       1.0403D-05   6.0674D-08        2        9550         127
+    19       6.9175D-06   2.4006D-08        2        9745          71
+    20       3.4588D-06   2.9684D-08        2        9745          27
+    21       1.1310D-06   6.9153D-08        1        9451           3
+    22       9.0960D-07   3.4401D-08        1        9745           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   6.1663D-08       28        9554        9900
+     2       5.0000D+00   8.7629D-08       28        9553        9900
+     3       1.2535D+00   7.3816D-08       27        9552        9900
+     4       6.2674D-01   6.9731D-08       20        9552        9900
+     5       1.3481D-01   6.7202D-08       21        9553        9900
+     6       6.7406D-02   1.3946D-07       17        9553        9899
+     7       9.4921D-03   6.5696D-08       19        7951        9900
+     8       4.6126D-03   8.6709D-08       11        9451        9667
+     9       1.7494D-03   8.4005D-08       13        9553        9488
+    10       8.5968D-04   8.4998D-08        9        9553        8317
+    11       3.1040D-04   6.5686D-08       10        9553        7664
+    12       1.5520D-04   1.2090D-07        7        9553        3019
+    13       4.5230D-05   8.7306D-08        6        9553        2028
+    14       2.2615D-05   9.2176D-08        4        9553         136
+    15       2.8850D-06   8.4904D-08        3        9553          46
+    16       1.4425D-06   6.2821D-08        2        9553           6
+    17       3.1356D-07   6.7978D-08        1        9553           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   9.0985D-08       28        8051        9900
+     2       5.0000D+00   8.4167D-08       24        9745        9900
+     3       2.0363D+00   7.3183D-08       26        9745        9900
+     4       1.0181D+00   6.5892D-08       20        9745        9900
+     5       3.5255D-01   9.6852D-08       21        9745        9900
+     6       1.7627D-01   2.7327D-08       18        9745        9900
+     7       2.6028D-02   8.4146D-08       18        9745        9900
+     8       1.3014D-02   9.2288D-08       14        9745        9786
+     9       4.7538D-03   2.0039D-07       11        9745        9872
+    10       2.3769D-03   5.8168D-08        9        9745        2763
+    11       1.5229D-03   6.5878D-08        7        9745        3648
+    12       7.6147D-04   6.5036D-08        4        9745         407
+    13       4.8535D-04   9.1784D-08        3        9745         567
+    14       2.4268D-04   1.8572D-08        4        9745         290
+    15       1.5524D-04   2.5004D-08        3        9745         307
+    16       7.7620D-05   3.8743D-08        3        9745         187
+    17       4.9740D-05   8.5287D-08        2        9745         203
+    18       2.4870D-05   1.2452D-08        3        9745          76
+    19       1.5871D-05   2.6634D-08        2        9745          83
+    20       7.9353D-06   4.3070D-08        2        9745          33
+    21       5.0793D-06   9.0250D-09        2        9745          21
+    22       2.5396D-06   1.3933D-08        2        9745           9
+    23       1.5602D-06   4.8056D-08        1        9745           4
+    24       7.8012D-07   6.8530D-08        1        9745           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   8.7927D-08       27        7851        9900
+     2       4.4662D+00   9.6403D-08       25        9554        9900
+     3       2.0725D+00   9.6969D-08       25        9553        9900
+     4       9.3120D-01   9.7099D-08       24        9745        9900
+     5       4.5681D-01   7.5315D-08       23        9745        9900
+     6       1.9410D-01   6.9764D-08       20        9745        9900
+     7       9.7050D-02   6.5939D-08       20        9745        9900
+     8       3.7088D-02   7.3255D-08       16        9745        9900
+     9       1.8544D-02   9.4727D-08       16        9745        9867
+    10       4.9292D-03   4.7364D-08       12        9745        9867
+    11       2.4646D-03   7.9829D-08       12        9745        8902
+    12       1.7516D-04   6.9392D-08       10        9745        9285
+    13       8.7580D-05   5.9772D-08        5        9745         203
+    14       4.9324D-05   7.4609D-08        4        9745         704
+    15       2.4662D-05   2.7321D-08        3        9745         145
+    16       1.4288D-05   3.8670D-08        2        9745         120
+    17       7.1441D-06   4.6350D-08        2        9745          81
+    18       4.1469D-06   1.5603D-08        2        9745          59
+    19       2.0734D-06   1.6132D-08        2        9745          18
+    20       1.1651D-06   4.8589D-08        1        9745           2
+    21       5.8257D-07   6.7092D-08        1        9745           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   5.3973D-08       27        7751        9900
+     2       4.8609D+00   9.2044D-08       23        9745        9900
+     3       2.4304D+00   9.7849D-08       25        9745        9900
+     4       1.0508D+00   5.3766D-08       25        9745        9900
+     5       5.2540D-01   8.6676D-08       23        9745        9900
+     6       5.9268D-02   9.1216D-08       22        9745        9900
+     7       2.9634D-02   8.4167D-08       18        9745        9883
+     8       2.2743D-02   2.5289D-08       18        9745        9900
+     9       1.1372D-02   6.1331D-08        9        9745        4320
+    10       9.9959D-03   6.2690D-07        7        9745        5206
+    11       4.9979D-03   8.8457D-08        7        9745        1431
+    12       4.3200D-03   6.5938D-08        6        9745        1566
+    13       2.1600D-03   7.7893D-08        5        9745         953
+    14       1.8328D-03   8.3369D-08        4        9745        1135
+    15       9.1639D-04   6.8557D-08        4        9745         408
+    16       7.6193D-04   9.1591D-08        3        9745         560
+    17       3.8096D-04   2.1640D-08        4        9745         262
+    18       3.0911D-04   3.1728D-08        3        9745         310
+    19       1.5455D-04   5.4111D-08        3        9745         181
+    20       1.2162D-04   1.3056D-08        3        9745         211
+    21       6.0812D-05   2.1207D-08        3        9745         139
+    22       4.5894D-05   6.1057D-08        2        9745         150
+    23       2.2947D-05   7.9773D-09        3        9745          92
+    24       1.6299D-05   2.1794D-08        2        9745         103
+    25       8.1496D-06   3.5932D-08        2        9745          43
+    26       5.3172D-06   7.7166D-09        2        9745          43
+    27       2.6586D-06   1.1748D-08        2        9745           4
+    28       1.4779D-06   5.2176D-08        1        9745           1
+    29       7.3896D-07   6.4068D-08        1        9745           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   6.9662D-08       26        7752        9900
+     2       4.6078D+00   3.3641D-08       26        9654        9900
+     3       2.2175D+00   8.8644D-08       25        9654        9900
+     4       1.1087D+00   7.7193D-08       25        9745        9900
+     5       5.3497D-01   7.2739D-08       23        9745        9900
+     6       2.6749D-01   8.8136D-08       22        9745        9900
+     7       1.0807D-01   6.5067D-08       20        9745        9900
+     8       5.4035D-02   8.4745D-08       19        9745        9899
+     9       6.8714D-03   8.7923D-08       18        7345        9899
+    10       5.2105D-03   9.1486D-08       14        9745        9871
+    11       2.6053D-03   9.1656D-08        8        9745        2080
+    12       2.9323D-03   4.9455D-08        7        9745        4202
+    13       1.4662D-03   5.4635D-08        6        9745        1147
+    14       1.6589D-03   3.5397D-08        5        9745        1398
+    15       8.2945D-04   6.0232D-08        5        9745         498
+    16       9.4303D-04   4.9826D-08        4        9745         896
+    17       4.7152D-04   8.4832D-08        4        9745         309
+    18       5.3899D-04   2.7736D-08        4        9745         374
+    19       2.6949D-04   5.0696D-08        4        9745         270
+    20       3.0987D-04   7.1466D-08        3        9745         285
+    21       1.5493D-04   2.9624D-08        4        9745         247
+    22       1.7928D-04   4.2612D-08        3        9745         262
+    23       8.9639D-05   8.0486D-08        3        9745         222
+    24       1.1221D-04   2.6882D-08        3        9451         237
+    25       5.6106D-05   4.9757D-08        3        9745         203
+    26       6.1230D-05   1.4300D-08        3        9451         207
+    27       3.0615D-05   2.6455D-08        3        9451         179
+    28       2.4103D-05   4.6688D-08        2        9451         161
+    29       1.2051D-05   8.4463D-08        2        9451         131
+    30       9.4550D-06   1.7587D-08        2        9553         103
+    31       4.7275D-06   3.1420D-08        2        9451          72
+    32       3.6215D-06   6.6087D-09        2        9553          50
+    33       1.8108D-06   1.1652D-08        2        9553          21
+    34       1.3428D-06   4.2352D-08        1        9553          10
+    35       6.7141D-07   6.9536D-08        1        9553           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+transient flow - variably saturated conditions
+------------------------------------------------------------------------
+
+ Newton Iteration Convergence Summary:
+ Newton       maximum      maximum     solver
+ iteration    update       residual    iterations  maxvol      nexvol
+     1       1.0000D+01   8.2903D-08       26        6428        9900
+     2       4.7506D+00   9.1992D-08       28        9555        9900
+     3       2.3496D+00   6.7639D-08       25        9654        9900
+     4       1.1342D+00   6.1815D-08       25        9654        9900
+     5       5.6712D-01   6.8659D-08       23        9745        9900
+     6       2.5900D-01   6.4333D-08       22        9745        9899
+     7       1.2950D-01   9.2565D-08       20        9745        9900
+     8       2.6985D-02   8.4440D-08       19        9745        9899
+     9       1.3493D-02   7.5696D-08       16        9745        9865
+    10       1.0729D-02   6.8271D-08       15        9745        9895
+    11       5.3646D-03   9.9078D-08        8        9745        4122
+    12       6.1301D-03   6.9153D-08        8        9745        5558
+    13       3.0650D-03   7.2400D-08        5        9745         900
+    14       3.5104D-03   8.4929D-08        4        9745        1360
+    15       1.7552D-03   5.7979D-08        5        9745         454
+    16       2.0135D-03   3.7429D-08        4        9745         737
+    17       1.0067D-03   7.6194D-08        4        9745         281
+    18       1.1572D-03   8.2342D-08        3        9745         297
+    19       5.7859D-04   4.1340D-08        4        9745         245
+    20       6.6657D-04   4.5362D-08        3        9745         244
+    21       3.3329D-04   9.8167D-08        3        9745         220
+    22       3.8499D-04   2.7304D-08        3        9745         223
+    23       1.9249D-04   5.6764D-08        3        9745         190
+    24       2.2300D-04   1.5652D-08        3        9745         199
+    25       1.1150D-04   3.3266D-08        3        9745         168
+    26       1.2959D-04   9.3013D-09        3        9745         176
+    27       6.4794D-05   1.9426D-08        3        9745         142
+    28       7.5492D-05   7.6689D-08        2        9745         155
+    29       3.7746D-05   1.1135D-08        3        9745         121
+    30       4.4064D-05   4.4437D-08        2        9745         128
+    31       2.2032D-05   9.5892D-08        2        9745          94
+    32       2.5820D-05   2.6275D-08        2        9745         108
+    33       1.2910D-05   5.6445D-08        2        9745          75
+    34       1.5197D-05   1.5533D-08        2        9745          86
+    35       7.5983D-06   3.3387D-08        2        9745          50
+    36       8.9865D-06   9.2328D-09        2        9745          64
+    37       4.4933D-06   1.9849D-08        2        9745          32
+    38       5.3410D-06   5.5175D-09        2        9745          42
+    39       2.6705D-06   1.1865D-08        2        9745          14
+    40       3.0910D-06   8.9774D-08        1        9745          22
+    41       1.5455D-06   6.6836D-09        2        9745           3
+    42       1.7003D-06   4.8335D-08        1        9745           7
+    43       8.5015D-07   9.9990D-08        1        9745           0
+ 
+update boundary conditions - water flow
+------------------------------------------------------------------------
+
+ 
+
+statistics - variably saturated flow ...
+------------------------------------------------------------------------
+
+total number of Newton iterations       =        540
+total number of solver iterations       =       5580
+
+general run specific statistics ...
+------------------------------------------------------------------------
+
+number of failed time steps             =          0
+total number of time steps              =         75
+cputime  =  24 hrs 13 min 36 sec

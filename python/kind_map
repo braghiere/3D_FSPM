@@ -1,0 +1,12 @@
+{
+ 'real':     {'type_r4' : 'float',
+              'type_r8' : 'double', 
+              'c_double' : 'double',
+              'c_float' : 'float',
+                '8' : 'double',
+                '4' : 'float'},
+
+ 'integer' : { 'type_i4' : 'int',
+                '4' : 'int' }
+
+}

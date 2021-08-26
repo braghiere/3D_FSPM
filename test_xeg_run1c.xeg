@@ -1,0 +1,1957 @@
+<graph>
+  <root root_id="31"/>
+  <node id="1" name="" type="RH">
+    <property name="angle" value="19.479124"/>
+  </node>
+  <edge id="1" src_id="121" dest_id="1" type="successor"/>
+  <type name="GridClonerNode">
+    <extends name="Node"/>
+    <property name="xCount" type="int"/>
+    <property name="xDistance" type="float"/>
+    <property name="yCount" type="int"/>
+    <property name="yDistance" type="float"/>
+  </type>
+  <node id="2" name="" type="GridClonerNode">
+    <property name="xCount" value="10"/>
+    <property name="xDistance" value="1.0"/>
+    <property name="yCount" value="10"/>
+    <property name="yDistance" value="1.0"/>
+  </node>
+  <edge id="2" src_id="45" dest_id="2" type="successor"/>
+  <node id="3" name="" type="RL">
+    <property name="angle" value="-0.7746643"/>
+  </node>
+  <edge id="3" src_id="43" dest_id="3" type="successor"/>
+  <type name="BranchBase">
+    <extends name="Node"/>
+    <property name="plantNumber" type="int"/>
+    <property name="dormant" type="boolean"/>
+    <property name="extending" type="boolean"/>
+    <property name="species" type="int"/>
+    <property name="nrPhyts" type="int"/>
+    <property name="nrPhytsMother" type="int"/>
+  </type>
+  <node id="4" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="10"/>
+    <property name="nrPhytsMother" value="0"/>
+  </node>
+  <edge id="4" src_id="44" dest_id="4" type="successor"/>
+  <node id="5" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="5" src_id="90" dest_id="5" type="successor"/>
+  <node id="6" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="6" src_id="72" dest_id="6" type="branch"/>
+  <node id="7" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="7" src_id="90" dest_id="7" type="branch"/>
+  <node id="8" name="" type="RL">
+    <property name="angle" value="-0.2178061"/>
+  </node>
+  <edge id="8" src_id="106" dest_id="8" type="successor"/>
+  <node id="9" name="" type="RL">
+    <property name="angle" value="1.2627878"/>
+  </node>
+  <edge id="9" src_id="58" dest_id="9" type="successor"/>
+  <node id="10" name="" type="RH">
+    <property name="angle" value="106.74287"/>
+  </node>
+  <edge id="10" src_id="98" dest_id="10" type="successor"/>
+  <type name="Flower">
+    <extends name="GrowingOrgan"/>
+    <property name="rotation" type="double"/>
+  </type>
+  <type name="GrowingOrgan">
+    <extends name="Organ"/>
+    <property name="area" type="double"/>
+    <property name="rg" type="double"/>
+    <property name="wmax" type="double"/>
+    <property name="te" type="double"/>
+    <property name="tm" type="double"/>
+    <property name="growth" type="double"/>
+    <property name="biomass" type="double"/>
+    <property name="frBio" type="double"/>
+    <property name="sinkStrength" type="double"/>
+    <property name="relativeSinkStrength" type="double"/>
+    <property name="assimilatesAvailable" type="double"/>
+    <property name="assimilatesAllocated" type="double"/>
+  </type>
+  <type name="Organ">
+    <extends name="M"/>
+    <property name="species" type="int"/>
+    <property name="plantNumber" type="int"/>
+    <property name="weed" type="boolean"/>
+    <property name="rank" type="int"/>
+    <property name="cpn" type="int"/>
+    <property name="order" type="int"/>
+    <property name="agePrevious" type="double"/>
+    <property name="age" type="double"/>
+    <property name="ageWait" type="double"/>
+    <property name="ageD" type="double"/>
+    <property name="delay" type="double"/>
+  </type>
+  <node id="11" name="" type="Flower">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="0"/>
+    <property name="cpn" value="0"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="0.0"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="0.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="3000.0"/>
+    <property name="te" value="800.0"/>
+    <property name="tm" value="400.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="rotation" value="159.47912406921387"/>
+  </node>
+  <edge id="11" src_id="108" dest_id="11" type="branch"/>
+  <node id="12" name="" type="RL">
+    <property name="angle" value="1.8017664"/>
+  </node>
+  <edge id="12" src_id="59" dest_id="12" type="successor"/>
+  <node id="13" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="13" src_id="23" dest_id="13" type="successor"/>
+  <node id="14" name="" type="RL">
+    <property name="angle" value="-2.4219565"/>
+  </node>
+  <edge id="14" src_id="81" dest_id="14" type="successor"/>
+  <node id="15" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="15" src_id="117" dest_id="15" type="successor"/>
+  <node id="16" name="" type="RH">
+    <property name="angle" value="184.08818"/>
+  </node>
+  <edge id="16" src_id="20" dest_id="16" type="successor"/>
+  <type name="Apex">
+    <extends name="Organ"/>
+    <property name="dormant" type="boolean"/>
+    <property name="numberVegPhyt" type="int"/>
+    <property name="parentRank" type="int"/>
+    <property name="nrLeaves" type="int"/>
+    <property name="phyllotaxis" type="double"/>
+    <property name="dom" type="double"/>
+    <property name="terminated" type="boolean"/>
+  </type>
+  <node id="17" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="8"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="181.47536568369708"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="360.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="7"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="17" src_id="66" dest_id="17" type="successor"/>
+  <type name="Leaf">
+    <extends name="VisibleOrgan"/>
+    <property name="width" type="double"/>
+    <property name="normArea" type="double"/>
+    <property name="segments" type="long"/>
+    <property name="bendingAngleSegment" type="double"/>
+    <property name="angle" type="double"/>
+    <property name="appeared" type="boolean"/>
+    <property name="petioleLength" type="double"/>
+    <property name="petioluleLength" type="double"/>
+    <property name="rachisLength" type="double"/>
+    <property name="bladeletArea" type="double"/>
+  </type>
+  <type name="VisibleOrgan">
+    <extends name="GrowingOrgan"/>
+    <property name="abs" type="double"/>
+    <property name="absm2" type="double"/>
+    <property name="fabs" type="double"/>
+    <property name="red" type="double"/>
+    <property name="farred" type="double"/>
+    <property name="rfr" type="double"/>
+    <property name="phi" type="double"/>
+    <property name="LN" type="double"/>
+    <property name="Amax" type="double"/>
+    <property name="photosynthesisRate" type="double"/>
+    <property name="assimilated" type="double"/>
+    <property name="transpirationRate" type="double"/>
+    <property name="transpired" type="double"/>
+  </type>
+  <node id="18" name="" type="Leaf">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="10"/>
+    <property name="cpn" value="10"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="47.09977739172073"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="450.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="0.0"/>
+    <property name="angle" value="0.0"/>
+    <property name="appeared" value="false"/>
+    <property name="petioleLength" value="0.0"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="0.0"/>
+  </node>
+  <edge id="18" src_id="70" dest_id="18" type="branch"/>
+  <node id="19" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="19" src_id="78" dest_id="19" type="successor"/>
+  <node id="20" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="20" src_id="55" dest_id="20" type="successor"/>
+  <node id="21" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="21" src_id="7" dest_id="21" type="successor"/>
+  <node id="22" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="4"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="179.93266709377372"/>
+    <property name="age" value="195.75947330517278"/>
+    <property name="ageWait" value="369.68540959838685"/>
+    <property name="ageD" value="13.0"/>
+    <property name="delay" value="180.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="3"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="22" src_id="80" dest_id="22" type="successor"/>
+  <type name="Internode">
+    <extends name="VisibleOrgan"/>
+    <property name="width" type="double"/>
+    <property name="increment" type="double"/>
+    <property name="lbRatio" type="double"/>
+    <property name="noExtension" type="boolean"/>
+    <property name="modifier" type="double"/>
+  </type>
+  <node id="23" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="8"/>
+    <property name="cpn" value="8"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="137.84525332687213"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="360.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="6.971693648082503E-4"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="23" src_id="19" dest_id="23" type="successor"/>
+  <type name="Plane">
+    <extends name="Node"/>
+  </type>
+  <node id="24" name="" type="Plane"/>
+  <edge id="24" src_id="31" dest_id="24" type="branch"/>
+  <type name="Tile">
+    <extends name="TileSensor"/>
+    <property name="row" type="int"/>
+    <property name="pos" type="int"/>
+    <property name="species" type="int"/>
+    <property name="plantNumber" type="int"/>
+    <property name="strip" type="int"/>
+  </type>
+  <type name="TileSensor">
+    <extends name="Node"/>
+    <property name="length" type="double"/>
+    <property name="width" type="double"/>
+    <property name="area" type="double"/>
+    <property name="abs" type="double"/>
+    <property name="absm2" type="double"/>
+    <property name="fabs" type="double"/>
+    <property name="red" type="double"/>
+    <property name="farred" type="double"/>
+    <property name="rfr" type="double"/>
+  </type>
+  <node id="25" name="" type="Tile">
+    <property name="length" value="1.0"/>
+    <property name="width" value="1.0"/>
+    <property name="area" value="1.0"/>
+    <property name="abs" value="675.6614186908716"/>
+    <property name="absm2" value="675.6614186908716"/>
+    <property name="fabs" value="0.8980539862376109"/>
+    <property name="red" value="810.7850173821244"/>
+    <property name="farred" value="676.1373298780564"/>
+    <property name="rfr" value="1.1991425137380776"/>
+    <property name="row" value="1"/>
+    <property name="pos" value="1"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="strip" value="1"/>
+  </node>
+  <edge id="25" src_id="29" dest_id="25" type="branch"/>
+  <node id="26" name="" type="RH">
+    <property name="angle" value="178.26463"/>
+  </node>
+  <edge id="26" src_id="15" dest_id="26" type="successor"/>
+  <node id="27" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="27" src_id="70" dest_id="27" type="successor"/>
+  <node id="28" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="28" src_id="62" dest_id="28" type="successor"/>
+  <type name="Translate">
+    <extends name="Node"/>
+    <property name="translateX" type="float"/>
+    <property name="translateY" type="float"/>
+    <property name="translateZ" type="float"/>
+  </type>
+  <node id="29" name="" type="Translate">
+    <property name="translateX" value="-0.0"/>
+    <property name="translateY" value="0.0"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="29" src_id="110" dest_id="29" type="branch"/>
+  <node id="30" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="30" src_id="39" dest_id="30" type="branch"/>
+  <node id="32" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="31" src_id="122" dest_id="32" type="successor"/>
+  <node id="33" name="" type="RH">
+    <property name="angle" value="92.93114"/>
+  </node>
+  <edge id="32" src_id="116" dest_id="33" type="successor"/>
+  <node id="34" name="" type="Leaf">
+    <property name="length" value="0.13737978"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="3"/>
+    <property name="cpn" value="3"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="222.00664420247261"/>
+    <property name="age" value="237.83345041387167"/>
+    <property name="ageWait" value="369.68540959838685"/>
+    <property name="ageD" value="16.0"/>
+    <property name="delay" value="135.0"/>
+    <property name="area" value="5.943437262823597E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="29.71718631411799"/>
+    <property name="frBio" value="0.2"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.40062384498038073"/>
+    <property name="absm2" value="674.0608628718883"/>
+    <property name="fabs" value="0.8959266107597883"/>
+    <property name="red" value="0.5540910376313738"/>
+    <property name="farred" value="0.4842312742326905"/>
+    <property name="rfr" value="1.14426941652908"/>
+    <property name="phi" value="0.550643846630962"/>
+    <property name="LN" value="1.9207297013520006"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="27.998400722626904"/>
+    <property name="assimilated" value="895.3933471567678"/>
+    <property name="transpirationRate" value="0.004364936866109387"/>
+    <property name="transpired" value="0.004364936866109387"/>
+    <property name="width" value="0.005495191216468811"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="3.289188162934406"/>
+    <property name="angle" value="39.47025795521287"/>
+    <property name="appeared" value="true"/>
+    <property name="petioleLength" value="0.022287889735588484"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="5.943437262823597E-4"/>
+  </node>
+  <edge id="33" src_id="90" dest_id="34" type="branch"/>
+  <node id="35" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="34" src_id="6" dest_id="35" type="successor"/>
+  <node id="36" name="" type="RL">
+    <property name="angle" value="-0.27124262"/>
+  </node>
+  <edge id="35" src_id="100" dest_id="36" type="successor"/>
+  <node id="37" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="36" src_id="8" dest_id="37" type="successor"/>
+  <node id="38" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="6"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="15.826806211399058"/>
+    <property name="ageWait" value="278.7410922634688"/>
+    <property name="ageD" value="1.0"/>
+    <property name="delay" value="270.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="5"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="37" src_id="10" dest_id="38" type="successor"/>
+  <node id="39" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="7"/>
+    <property name="cpn" value="7"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="181.47536568369708"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="315.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="6.971693648082503E-4"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="38" src_id="37" dest_id="39" type="successor"/>
+  <type name="DiffuseLight">
+    <extends name="Node"/>
+    <property name="power" type="float"/>
+    <property name="dist" type="double"/>
+  </type>
+  <node id="40" name="" type="DiffuseLight">
+    <property name="power" value="601.88934"/>
+    <property name="dist" value="30.0"/>
+  </node>
+  <edge id="39" src_id="99" dest_id="40" type="successor"/>
+  <node id="41" name="" type="Leaf">
+    <property name="length" value="0.05950046"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="1"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="415.01011084265855"/>
+    <property name="age" value="430.8369170540576"/>
+    <property name="ageWait" value="466.0362106493094"/>
+    <property name="ageD" value="31.0"/>
+    <property name="delay" value="45.0"/>
+    <property name="area" value="1.1148917021237385E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="5.574458510618691"/>
+    <property name="frBio" value="0.04"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0683761511681069"/>
+    <property name="absm2" value="613.298592480851"/>
+    <property name="fabs" value="0.8151645639298146"/>
+    <property name="red" value="0.09271107133608762"/>
+    <property name="farred" value="0.07060151570520387"/>
+    <property name="rfr" value="1.3131597871524747"/>
+    <property name="phi" value="0.5698691395431248"/>
+    <property name="LN" value="1.8551040056682286"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="26.092157496190914"/>
+    <property name="assimilated" value="156.52569105913722"/>
+    <property name="transpirationRate" value="0.00407282983837858"/>
+    <property name="transpired" value="0.00407282983837858"/>
+    <property name="width" value="0.0023800183832645414"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="3.332012411843478"/>
+    <property name="angle" value="39.984148942121735"/>
+    <property name="appeared" value="true"/>
+    <property name="petioleLength" value="0.004180843882964018"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="1.1148917021237385E-4"/>
+  </node>
+  <edge id="40" src_id="117" dest_id="41" type="branch"/>
+  <node id="42" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="41" src_id="92" dest_id="42" type="successor"/>
+  <node id="43" name="" type="RH">
+    <property name="angle" value="134.49219"/>
+  </node>
+  <edge id="42" src_id="28" dest_id="43" type="successor"/>
+  <type name="RootSystem">
+    <extends name="GrowingOrgan"/>
+  </type>
+  <node id="44" name="" type="RootSystem">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="0"/>
+    <property name="cpn" value="0"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="461.697977582296"/>
+    <property name="age" value="477.52478379369506"/>
+    <property name="ageWait" value="477.52478379369506"/>
+    <property name="ageD" value="35.0"/>
+    <property name="delay" value="0.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="3000.0"/>
+    <property name="te" value="1800.0"/>
+    <property name="tm" value="900.0"/>
+    <property name="growth" value="17.132468617588895"/>
+    <property name="biomass" value="112.39522875567206"/>
+    <property name="frBio" value="0.04"/>
+    <property name="sinkStrength" value="44.069050463191275"/>
+    <property name="relativeSinkStrength" value="0.3660654383008482"/>
+    <property name="assimilatesAvailable" value="24.474955167984138"/>
+    <property name="assimilatesAllocated" value="24.474955167984138"/>
+  </node>
+  <edge id="43" src_id="1" dest_id="44" type="successor"/>
+  <type name="temp">
+    <extends name="Node"/>
+  </type>
+  <node id="45" name="" type="temp"/>
+  <edge id="44" src_id="103" dest_id="45" type="successor"/>
+  <node id="46" name="" type="Translate">
+    <property name="translateX" value="5.0"/>
+    <property name="translateY" value="-5.0"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="45" src_id="114" dest_id="46" type="successor"/>
+  <type name="LightNode">
+    <extends name="Node"/>
+  </type>
+  <node id="47" name="" type="LightNode"/>
+  <edge id="46" src_id="31" dest_id="47" type="branch"/>
+  <node id="48" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="47" src_id="70" dest_id="48" type="branch"/>
+  <node id="49" name="" type="Leaf">
+    <property name="length" value="0.16289519"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="4"/>
+    <property name="cpn" value="4"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="136.69135211078526"/>
+    <property name="age" value="152.51815832218432"/>
+    <property name="ageWait" value="318.48651134749093"/>
+    <property name="ageD" value="10.0"/>
+    <property name="delay" value="180.0"/>
+    <property name="area" value="8.356194785033523E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="7.646530808892469"/>
+    <property name="biomass" value="41.78097392516762"/>
+    <property name="frBio" value="0.28"/>
+    <property name="sinkStrength" value="19.66881478711575"/>
+    <property name="relativeSinkStrength" value="0.16338163019685667"/>
+    <property name="assimilatesAvailable" value="10.923615441274956"/>
+    <property name="assimilatesAllocated" value="10.923615441274956"/>
+    <property name="abs" value="0.45025150802126473"/>
+    <property name="absm2" value="659.526664149073"/>
+    <property name="fabs" value="0.8766085103936556"/>
+    <property name="red" value="0.6224134823526865"/>
+    <property name="farred" value="0.5353587950956256"/>
+    <property name="rfr" value="1.162609988020298"/>
+    <property name="phi" value="0.5529279609026863"/>
+    <property name="LN" value="1.9053838808805306"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="27.551771780293105"/>
+    <property name="assimilated" value="1012.0810783598411"/>
+    <property name="transpirationRate" value="0.004296494761571873"/>
+    <property name="transpired" value="0.004296494761571873"/>
+    <property name="width" value="0.006515807509422302"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="3.1250976233284176"/>
+    <property name="angle" value="37.50117147994101"/>
+    <property name="appeared" value="true"/>
+    <property name="petioleLength" value="0.031335730443875706"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="8.356194785033523E-4"/>
+  </node>
+  <edge id="48" src_id="64" dest_id="49" type="branch"/>
+  <node id="50" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="10"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="93.0513072890945"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="450.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="9"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="49" src_id="68" dest_id="50" type="successor"/>
+  <node id="51" name="" type="Translate">
+    <property name="translateX" value="1.0"/>
+    <property name="translateY" value="0.0"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="50" src_id="25" dest_id="51" type="successor"/>
+  <node id="52" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="51" src_id="39" dest_id="52" type="successor"/>
+  <node id="53" name="" type="Leaf">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="9"/>
+    <property name="cpn" value="9"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="93.0513072890945"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="405.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="0.0"/>
+    <property name="angle" value="0.0"/>
+    <property name="appeared" value="false"/>
+    <property name="petioleLength" value="0.0"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="0.0"/>
+  </node>
+  <edge id="52" src_id="83" dest_id="53" type="branch"/>
+  <node id="54" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="53" src_id="12" dest_id="54" type="successor"/>
+  <node id="55" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="54" src_id="23" dest_id="55" type="branch"/>
+  <node id="56" name="" type="RL">
+    <property name="angle" value="-2.2583942"/>
+  </node>
+  <edge id="55" src_id="76" dest_id="56" type="successor"/>
+  <node id="57" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="56" src_id="105" dest_id="57" type="successor"/>
+  <node id="58" name="" type="RH">
+    <property name="angle" value="130.4085"/>
+  </node>
+  <edge id="57" src_id="96" dest_id="58" type="successor"/>
+  <node id="59" name="" type="RH">
+    <property name="angle" value="130.69783"/>
+  </node>
+  <edge id="58" src_id="5" dest_id="59" type="successor"/>
+  <node id="60" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="59" src_id="64" dest_id="60" type="successor"/>
+  <node id="61" name="" type="RL">
+    <property name="angle" value="1.8941727"/>
+  </node>
+  <edge id="60" src_id="26" dest_id="61" type="successor"/>
+  <node id="62" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="2"/>
+    <property name="cpn" value="2"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="315.6510639105822"/>
+    <property name="age" value="331.47787012198125"/>
+    <property name="ageWait" value="418.85690717714783"/>
+    <property name="ageD" value="23.0"/>
+    <property name="delay" value="90.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="0.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.004959572212173602"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="true"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="61" src_id="119" dest_id="62" type="successor"/>
+  <node id="63" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="11"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="47.09977739172073"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="495.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="10"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="62" src_id="33" dest_id="63" type="successor"/>
+  <node id="64" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="4"/>
+    <property name="cpn" value="4"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="136.69135211078526"/>
+    <property name="age" value="152.51815832218432"/>
+    <property name="ageWait" value="318.48651134749093"/>
+    <property name="ageD" value="10.0"/>
+    <property name="delay" value="180.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="0.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0038694106528506466"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="true"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="63" src_id="54" dest_id="64" type="successor"/>
+  <node id="65" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="64" src_id="104" dest_id="65" type="successor"/>
+  <node id="66" name="" type="RH">
+    <property name="angle" value="211.54102"/>
+  </node>
+  <edge id="65" src_id="97" dest_id="66" type="successor"/>
+  <node id="67" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="11"/>
+    <property name="cpn" value="11"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="506.6979775822961"/>
+    <property name="age" value="522.5247837936952"/>
+    <property name="ageWait" value="477.52478379369506"/>
+    <property name="ageD" value="35.0"/>
+    <property name="delay" value="0.0"/>
+    <property name="dormant" value="false"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="0"/>
+    <property name="nrLeaves" value="1"/>
+    <property name="phyllotaxis" value="137.0"/>
+    <property name="dom" value="3.6011547445723875"/>
+    <property name="terminated" value="true"/>
+  </node>
+  <edge id="66" src_id="108" dest_id="67" type="successor"/>
+  <node id="68" name="" type="RH">
+    <property name="angle" value="243.31773"/>
+  </node>
+  <edge id="67" src_id="65" dest_id="68" type="successor"/>
+  <node id="69" name="" type="RH">
+    <property name="angle" value="57.19023"/>
+  </node>
+  <edge id="68" src_id="35" dest_id="69" type="successor"/>
+  <node id="70" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="10"/>
+    <property name="cpn" value="10"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="47.09977739172073"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="450.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="6.971693648082503E-4"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="69" src_id="93" dest_id="70" type="successor"/>
+  <node id="71" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="70" src_id="62" dest_id="71" type="branch"/>
+  <node id="72" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="6"/>
+    <property name="cpn" value="6"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="237.83345041387167"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="270.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="6.971693648082503E-4"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="71" src_id="118" dest_id="72" type="successor"/>
+  <node id="73" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="5"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="92.2848091899993"/>
+    <property name="age" value="108.11161540139835"/>
+    <property name="ageWait" value="318.48651134749093"/>
+    <property name="ageD" value="7.0"/>
+    <property name="delay" value="225.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="4"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="72" src_id="84" dest_id="73" type="successor"/>
+  <node id="74" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="2"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="366.34033442458036"/>
+    <property name="age" value="382.1671406359794"/>
+    <property name="ageWait" value="466.0362106493094"/>
+    <property name="ageD" value="27.0"/>
+    <property name="delay" value="90.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="1"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="73" src_id="87" dest_id="74" type="successor"/>
+  <node id="75" name="" type="Translate">
+    <property name="translateX" value="1.0"/>
+    <property name="translateY" value="0.0"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="74" src_id="110" dest_id="75" type="branch"/>
+  <node id="76" name="" type="RH">
+    <property name="angle" value="139.65794"/>
+  </node>
+  <edge id="75" src_id="32" dest_id="76" type="successor"/>
+  <node id="77" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="9"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="137.84525332687213"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="405.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="8"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="76" src_id="16" dest_id="77" type="successor"/>
+  <node id="78" name="" type="RL">
+    <property name="angle" value="0.8164768"/>
+  </node>
+  <edge id="77" src_id="89" dest_id="78" type="successor"/>
+  <node id="79" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="7"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="237.83345041387167"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="315.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="6"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="78" src_id="69" dest_id="79" type="successor"/>
+  <node id="80" name="" type="RH">
+    <property name="angle" value="219.50519"/>
+  </node>
+  <edge id="79" src_id="21" dest_id="80" type="successor"/>
+  <node id="81" name="" type="RH">
+    <property name="angle" value="143.44609"/>
+  </node>
+  <edge id="80" src_id="13" dest_id="81" type="successor"/>
+  <node id="82" name="" type="Translate">
+    <property name="translateX" value="0.0"/>
+    <property name="translateY" value="1.0"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="81" src_id="29" dest_id="82" type="successor"/>
+  <node id="83" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="9"/>
+    <property name="cpn" value="9"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="93.0513072890945"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="405.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="6.971693648082503E-4"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="82" src_id="94" dest_id="83" type="successor"/>
+  <node id="84" name="" type="RH">
+    <property name="angle" value="289.06824"/>
+  </node>
+  <edge id="83" src_id="95" dest_id="84" type="successor"/>
+  <node id="85" name="" type="Translate">
+    <property name="translateX" value="0.0"/>
+    <property name="translateY" value="0.5"/>
+    <property name="translateZ" value="0.0"/>
+  </node>
+  <edge id="84" src_id="110" dest_id="85" type="branch"/>
+  <node id="86" name="" type="RH">
+    <property name="angle" value="134.98701"/>
+  </node>
+  <edge id="85" src_id="27" dest_id="86" type="successor"/>
+  <node id="87" name="" type="RH">
+    <property name="angle" value="274.7945"/>
+  </node>
+  <edge id="86" src_id="57" dest_id="87" type="successor"/>
+  <node id="88" name="" type="Leaf">
+    <property name="length" value="0.086729705"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="2"/>
+    <property name="cpn" value="2"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="315.6510639105822"/>
+    <property name="age" value="331.47787012198125"/>
+    <property name="ageWait" value="418.85690717714783"/>
+    <property name="ageD" value="23.0"/>
+    <property name="delay" value="90.0"/>
+    <property name="area" value="2.3687966478107929E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="11.843983239053966"/>
+    <property name="frBio" value="0.08"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.1421733304122997"/>
+    <property name="absm2" value="600.1922138132635"/>
+    <property name="fabs" value="0.7977442476560632"/>
+    <property name="red" value="0.18993677874816076"/>
+    <property name="farred" value="0.11001280494094119"/>
+    <property name="rfr" value="1.7264970095992518"/>
+    <property name="phi" value="0.6042650406929766"/>
+    <property name="LN" value="1.8404152802103482"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="25.667154913004712"/>
+    <property name="assimilated" value="327.15116184511356"/>
+    <property name="transpirationRate" value="0.0040077069985113714"/>
+    <property name="transpired" value="0.0040077069985113714"/>
+    <property name="width" value="0.0034691882133483887"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="3.3252898863751694"/>
+    <property name="angle" value="39.90347863650203"/>
+    <property name="appeared" value="true"/>
+    <property name="petioleLength" value="0.008882987429290473"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="2.3687966478107929E-4"/>
+  </node>
+  <edge id="87" src_id="62" dest_id="88" type="branch"/>
+  <node id="89" name="" type="RH">
+    <property name="angle" value="138.7732"/>
+  </node>
+  <edge id="88" src_id="52" dest_id="89" type="successor"/>
+  <node id="90" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="3"/>
+    <property name="cpn" value="3"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="222.00664420247261"/>
+    <property name="age" value="237.83345041387167"/>
+    <property name="ageWait" value="369.68540959838685"/>
+    <property name="ageD" value="16.0"/>
+    <property name="delay" value="135.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="0.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.004748148166318287"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="true"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="89" src_id="120" dest_id="90" type="successor"/>
+  <node id="91" name="" type="RH">
+    <property name="angle" value="308.026"/>
+  </node>
+  <edge id="90" src_id="101" dest_id="91" type="successor"/>
+  <node id="92" name="" type="RL">
+    <property name="angle" value="0.6911049"/>
+  </node>
+  <edge id="91" src_id="86" dest_id="92" type="successor"/>
+  <node id="93" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="92" src_id="9" dest_id="93" type="successor"/>
+  <node id="94" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="93" src_id="14" dest_id="94" type="successor"/>
+  <node id="95" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="94" src_id="111" dest_id="95" type="successor"/>
+  <node id="96" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="95" src_id="83" dest_id="96" type="successor"/>
+  <node id="97" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="96" src_id="30" dest_id="97" type="successor"/>
+  <node id="98" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="97" src_id="102" dest_id="98" type="successor"/>
+  <type name="DirectLight">
+    <extends name="Node"/>
+    <property name="mod" type="float"/>
+    <property name="dist" type="double"/>
+  </type>
+  <node id="99" name="" type="DirectLight">
+    <property name="mod" value="0.0"/>
+    <property name="dist" value="30.0"/>
+  </node>
+  <edge id="98" src_id="46" dest_id="99" type="successor"/>
+  <node id="100" name="" type="RH">
+    <property name="angle" value="132.2805"/>
+  </node>
+  <edge id="99" src_id="60" dest_id="100" type="successor"/>
+  <node id="101" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="100" src_id="71" dest_id="101" type="successor"/>
+  <node id="102" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="101" src_id="122" dest_id="102" type="branch"/>
+  <type name="RGGRoot">
+    <extends name="Node"/>
+  </type>
+  <node id="103" name="" type="RGGRoot"/>
+  <edge id="102" src_id="31" dest_id="103" type="branch"/>
+  <node id="104" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="103" src_id="83" dest_id="104" type="branch"/>
+  <node id="105" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="104" src_id="117" dest_id="105" type="branch"/>
+  <node id="106" name="" type="RH">
+    <property name="angle" value="142.45724"/>
+  </node>
+  <edge id="105" src_id="112" dest_id="106" type="successor"/>
+  <node id="107" name="" type="Leaf">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="6"/>
+    <property name="cpn" value="6"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="237.83345041387167"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="270.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="0.0"/>
+    <property name="angle" value="0.0"/>
+    <property name="appeared" value="false"/>
+    <property name="petioleLength" value="0.0"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="0.0"/>
+  </node>
+  <edge id="106" src_id="72" dest_id="107" type="branch"/>
+  <node id="108" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="11"/>
+    <property name="cpn" value="11"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="0.0"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="495.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="0.0"/>
+    <property name="phi" value="0.0"/>
+    <property name="LN" value="0.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="0.0"/>
+    <property name="assimilated" value="0.0"/>
+    <property name="transpirationRate" value="0.0"/>
+    <property name="transpired" value="0.0"/>
+    <property name="width" value="0.0"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="0.0"/>
+  </node>
+  <edge id="107" src_id="42" dest_id="108" type="successor"/>
+  <node id="109" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="108" src_id="36" dest_id="109" type="successor"/>
+  <type name="FieldBase">
+    <extends name="Node"/>
+    <property name="totalFabs" type="double"/>
+  </type>
+  <node id="110" name="" type="FieldBase">
+    <property name="transform">
+      <matrix>1.0 0.0 0.0 0.5 0.0 1.0 0.0 0.5 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0</matrix>
+    </property>
+    <property name="totalFabs" value="0.0015070596143507708"/>
+  </node>
+  <edge id="109" src_id="2" dest_id="110" type="successor"/>
+  <node id="111" name="" type="BranchBase">
+    <property name="plantNumber" value="1"/>
+    <property name="dormant" value="true"/>
+    <property name="extending" value="false"/>
+    <property name="species" value="4"/>
+    <property name="nrPhyts" value="0"/>
+    <property name="nrPhytsMother" value="10"/>
+  </node>
+  <edge id="110" src_id="64" dest_id="111" type="branch"/>
+  <node id="112" name="" type="RH">
+    <property name="angle" value="360.0"/>
+  </node>
+  <edge id="111" src_id="72" dest_id="112" type="successor"/>
+  <node id="113" name="" type="Leaf">
+    <property name="length" value="0.09927438"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="5"/>
+    <property name="cpn" value="5"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="46.71825519372158"/>
+    <property name="age" value="62.54506140512064"/>
+    <property name="ageWait" value="278.7410922634688"/>
+    <property name="ageD" value="4.0"/>
+    <property name="delay" value="225.0"/>
+    <property name="area" value="3.1036048270969175E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="7.31653195544776"/>
+    <property name="biomass" value="15.518024135484591"/>
+    <property name="frBio" value="0.1"/>
+    <property name="sinkStrength" value="18.819974117982994"/>
+    <property name="relativeSinkStrength" value="0.15633062210097753"/>
+    <property name="assimilatesAvailable" value="10.452188507782516"/>
+    <property name="assimilatesAllocated" value="10.452188507782516"/>
+    <property name="abs" value="0.07242909033615834"/>
+    <property name="absm2" value="441.5604425768842"/>
+    <property name="fabs" value="0.5868991548893541"/>
+    <property name="red" value="0.10004711780839654"/>
+    <property name="farred" value="0.0869430311053493"/>
+    <property name="rfr" value="1.1507203801897468"/>
+    <property name="phi" value="0.5514532543122767"/>
+    <property name="LN" value="1.643846865342661"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="20.093141319586586"/>
+    <property name="assimilated" value="177.34284241571166"/>
+    <property name="transpirationRate" value="0.003153758984576162"/>
+    <property name="transpired" value="0.003153758984576162"/>
+    <property name="width" value="0.003970975279808045"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="2.264262522946263"/>
+    <property name="angle" value="27.17115027535516"/>
+    <property name="appeared" value="true"/>
+    <property name="petioleLength" value="0.011638518101613444"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="3.1036048270969175E-4"/>
+  </node>
+  <edge id="112" src_id="122" dest_id="113" type="branch"/>
+  <node id="114" name="" type="RH">
+    <property name="angle" value="90.0"/>
+  </node>
+  <edge id="113" src_id="45" dest_id="114" type="branch"/>
+  <node id="115" name="" type="Apex">
+    <property name="length" value="1.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="3"/>
+    <property name="order" value="1"/>
+    <property name="agePrevious" value="276.29160243826783"/>
+    <property name="age" value="292.1184086496669"/>
+    <property name="ageWait" value="418.85690717714783"/>
+    <property name="ageD" value="20.0"/>
+    <property name="delay" value="135.0"/>
+    <property name="dormant" value="true"/>
+    <property name="numberVegPhyt" value="10"/>
+    <property name="parentRank" value="2"/>
+    <property name="nrLeaves" value="0"/>
+    <property name="phyllotaxis" value="0.0"/>
+    <property name="dom" value="0.0"/>
+    <property name="terminated" value="false"/>
+  </node>
+  <edge id="114" src_id="91" dest_id="115" type="successor"/>
+  <node id="116" name="" type="RU">
+    <property name="angle" value="45.0"/>
+  </node>
+  <edge id="115" src_id="48" dest_id="116" type="successor"/>
+  <node id="117" name="" type="Internode">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="1"/>
+    <property name="cpn" value="1"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="415.01011084265855"/>
+    <property name="age" value="430.8369170540576"/>
+    <property name="ageWait" value="466.0362106493094"/>
+    <property name="ageD" value="31.0"/>
+    <property name="delay" value="45.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="0.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.004994419166933375"/>
+    <property name="increment" value="0.0"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="true"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="116" src_id="4" dest_id="117" type="successor"/>
+  <node id="118" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="117" src_id="56" dest_id="118" type="successor"/>
+  <node id="119" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="118" src_id="61" dest_id="119" type="successor"/>
+  <node id="120" name="" type="RV">
+    <property name="strength" value="0.0"/>
+  </node>
+  <edge id="119" src_id="3" dest_id="120" type="successor"/>
+  <type name="PlantBase">
+    <extends name="Node"/>
+    <property name="age" type="double"/>
+    <property name="ageD" type="double"/>
+    <property name="strip" type="int"/>
+    <property name="row" type="int"/>
+    <property name="pos" type="int"/>
+    <property name="species" type="int"/>
+    <property name="weed" type="boolean"/>
+    <property name="plantNumber" type="int"/>
+    <property name="germinated" type="boolean"/>
+    <property name="absorbedRadiation" type="double"/>
+    <property name="accumulatedRadiation" type="double"/>
+    <property name="fabs" type="double"/>
+    <property name="assimilated" type="double"/>
+    <property name="substrates" type="double"/>
+    <property name="reservePool" type="double"/>
+    <property name="biomass" type="double"/>
+    <property name="yld" type="double"/>
+    <property name="biomLeaf" type="double"/>
+    <property name="biomStem" type="double"/>
+    <property name="biomRoots" type="double"/>
+    <property name="shootRoot" type="double"/>
+    <property name="biomassAbove" type="double"/>
+    <property name="sinkStrength" type="double"/>
+    <property name="sr" type="double"/>
+    <property name="leafArea" type="double"/>
+    <property name="stemArea" type="double"/>
+    <property name="height" type="double"/>
+    <property name="rfr" type="double"/>
+    <property name="harvested" type="boolean"/>
+    <property name="nrBranches" type="long"/>
+    <property name="flowering" type="boolean"/>
+    <property name="extending" type="boolean"/>
+    <property name="die" type="boolean"/>
+    <property name="initialAngle" type="double"/>
+    <property name="transpired" type="double"/>
+  </type>
+  <node id="121" name="" type="PlantBase">
+    <property name="transform">
+      <matrix>1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0</matrix>
+    </property>
+    <property name="age" value="488.8923788691719"/>
+    <property name="ageD" value="36.0"/>
+    <property name="strip" value="1"/>
+    <property name="row" value="1"/>
+    <property name="pos" value="1"/>
+    <property name="species" value="4"/>
+    <property name="weed" value="false"/>
+    <property name="plantNumber" value="1"/>
+    <property name="germinated" value="true"/>
+    <property name="absorbedRadiation" value="1.1338539249182105"/>
+    <property name="accumulatedRadiation" value="0.4134400775805692"/>
+    <property name="fabs" value="0.8422003359241639"/>
+    <property name="assimilated" value="2600.820237017179"/>
+    <property name="substrates" value="66.8595081840793"/>
+    <property name="reservePool" value="0.0"/>
+    <property name="biomass" value="248.7739884617805"/>
+    <property name="yld" value="0.0"/>
+    <property name="biomLeaf" value="104.43462612444287"/>
+    <property name="biomStem" value="31.944133581665554"/>
+    <property name="biomRoots" value="112.39522875567206"/>
+    <property name="shootRoot" value="1.2133856678433605"/>
+    <property name="biomassAbove" value="136.37875970610844"/>
+    <property name="sinkStrength" value="120.38571755843677"/>
+    <property name="sr" value="0.5553774113746079"/>
+    <property name="leafArea" value="0.002088692522488857"/>
+    <property name="stemArea" value="1.3208652985574506E-4"/>
+    <property name="height" value="0.023264657706022263"/>
+    <property name="rfr" value="1.2112389725123427"/>
+    <property name="harvested" value="false"/>
+    <property name="nrBranches" value="0"/>
+    <property name="flowering" value="true"/>
+    <property name="extending" value="true"/>
+    <property name="die" value="true"/>
+    <property name="initialAngle" value="19.479124069213867"/>
+    <property name="transpired" value="7.858581129798222E-10"/>
+  </node>
+  <edge id="120" src_id="110" dest_id="121" type="branch"/>
+  <node id="122" name="" type="Internode">
+    <property name="length" value="0.023264658"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="5"/>
+    <property name="cpn" value="5"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="46.71825519372158"/>
+    <property name="age" value="62.54506140512064"/>
+    <property name="ageWait" value="278.7410922634688"/>
+    <property name="ageD" value="4.0"/>
+    <property name="delay" value="225.0"/>
+    <property name="area" value="1.3208652985574506E-4"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="225.0"/>
+    <property name="te" value="182.0"/>
+    <property name="tm" value="91.0"/>
+    <property name="growth" value="14.70612434692638"/>
+    <property name="biomass" value="31.944133581665554"/>
+    <property name="frBio" value="0.14"/>
+    <property name="sinkStrength" value="37.82787819014674"/>
+    <property name="relativeSinkStrength" value="0.3142223094013175"/>
+    <property name="assimilatesAvailable" value="21.008749067037687"/>
+    <property name="assimilatesAllocated" value="21.008749067037687"/>
+    <property name="abs" value="0.012104753905922151"/>
+    <property name="absm2" value="176.29946338012886"/>
+    <property name="fabs" value="0.23432806947426707"/>
+    <property name="red" value="0.016696212936404414"/>
+    <property name="farred" value="0.013913506265021093"/>
+    <property name="rfr" value="1.2000003894330444"/>
+    <property name="phi" value="0.5574260999023292"/>
+    <property name="LN" value="1.172533726262932"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="8.74995057624854"/>
+    <property name="assimilated" value="32.32611618060735"/>
+    <property name="transpirationRate" value="0.0014185416433480228"/>
+    <property name="transpired" value="0.0014185416433480228"/>
+    <property name="width" value="0.0018072240226388763"/>
+    <property name="increment" value="0.008295918963238868"/>
+    <property name="lbRatio" value="5.0E-4"/>
+    <property name="noExtension" value="false"/>
+    <property name="modifier" value="1.1282264133680793"/>
+  </node>
+  <edge id="121" src_id="109" dest_id="122" type="successor"/>
+  <node id="123" name="" type="Leaf">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="8"/>
+    <property name="cpn" value="8"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="137.84525332687213"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="360.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="0.0"/>
+    <property name="angle" value="0.0"/>
+    <property name="appeared" value="false"/>
+    <property name="petioleLength" value="0.0"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="0.0"/>
+  </node>
+  <edge id="122" src_id="23" dest_id="123" type="branch"/>
+  <node id="124" name="" type="Leaf">
+    <property name="length" value="0.0"/>
+    <property name="species" value="4"/>
+    <property name="plantNumber" value="1"/>
+    <property name="weed" value="false"/>
+    <property name="rank" value="7"/>
+    <property name="cpn" value="7"/>
+    <property name="order" value="0"/>
+    <property name="agePrevious" value="0.0"/>
+    <property name="age" value="0.0"/>
+    <property name="ageWait" value="181.47536568369708"/>
+    <property name="ageD" value="0.0"/>
+    <property name="delay" value="315.0"/>
+    <property name="area" value="0.0"/>
+    <property name="rg" value="0.3"/>
+    <property name="wmax" value="150.0"/>
+    <property name="te" value="220.0"/>
+    <property name="tm" value="110.0"/>
+    <property name="growth" value="0.0"/>
+    <property name="biomass" value="0.0"/>
+    <property name="frBio" value="0.0"/>
+    <property name="sinkStrength" value="0.0"/>
+    <property name="relativeSinkStrength" value="0.0"/>
+    <property name="assimilatesAvailable" value="0.0"/>
+    <property name="assimilatesAllocated" value="0.0"/>
+    <property name="abs" value="0.0"/>
+    <property name="absm2" value="0.0"/>
+    <property name="fabs" value="0.0"/>
+    <property name="red" value="0.0"/>
+    <property name="farred" value="0.0"/>
+    <property name="rfr" value="1.2"/>
+    <property name="phi" value="0.5574260541220893"/>
+    <property name="LN" value="2.0"/>
+    <property name="Amax" value="0.0"/>
+    <property name="photosynthesisRate" value="-4.632760841616346E-11"/>
+    <property name="assimilated" value="-0.0"/>
+    <property name="transpirationRate" value="1.54455445540449E-4"/>
+    <property name="transpired" value="1.54455445540449E-4"/>
+    <property name="width" value="0.0"/>
+    <property name="normArea" value="0.7872850966200664"/>
+    <property name="segments" value="30"/>
+    <property name="bendingAngleSegment" value="0.0"/>
+    <property name="angle" value="0.0"/>
+    <property name="appeared" value="false"/>
+    <property name="petioleLength" value="0.0"/>
+    <property name="petioluleLength" value="0.0"/>
+    <property name="rachisLength" value="0.0"/>
+    <property name="bladeletArea" value="0.0"/>
+  </node>
+  <edge id="123" src_id="39" dest_id="124" type="branch"/>
+</graph>

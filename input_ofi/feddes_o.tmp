@@ -1,0 +1,19 @@
+'update root'                                                           
+'coupled'                                                               
+'growing vegetation'                                                    
+'transpiration global parameters'                                       
+2.0                          ;rew_0                                     
+-2.0                         ;p1                                        
+0.1                          ;f_i                                       
+'correction method for water stress'                                    
+4                                                                       
+'soil'                                                                  
+'root water uptake'                                                     
+105.0                      ;water pressure wilting point                
+10.0                       ;water pressure optimal capacity             
+5.0                        ;water pressure field capacity               
+0                          ;rsd1                                        
+'passive solute uptake'                                                 
+0.0                                                                     
+'end of zone'                                                           
+'done'                                                                  

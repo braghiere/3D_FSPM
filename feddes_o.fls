@@ -1,0 +1,62 @@
+************************************************************************
+MIN3P file information
+************************************************************************
+
+
+************************************************************************
+problem specific input files
+************************************************************************
+
+feddes.dat        problem specific input
+
+
+************************************************************************
+general output files
+************************************************************************
+
+feddes_o.gen      generic output
+feddes_o.dbg      debugging information
+feddes.log        log file
+feddes_o.dt       time step data
+feddes.hyc        initial hydraulic conductivity distribution
+
+
+************************************************************************
+mass balance - variably saturated flow
+************************************************************************
+
+system mass
+------------------------------------------------------------------------
+
+feddes_o.mvs
+
+column   entry                           unit
+1        time                            days        
+2        water mass                      kg
+3        water filled volume             m^3
+4        air filled volume               m^3
+
+mass balance contributions
+------------------------------------------------------------------------
+
+feddes_o.mvc
+
+column   entry                           unit
+1        time                            days        
+2        total inflow                    m^3/day
+3        total outflow                   m^3/day
+4        change in storage               m^3/day
+
+mass balance error
+------------------------------------------------------------------------
+
+feddes_o.mve
+
+column   entry                           unit
+1        time                            days        
+2        absolute mass balance error     m^3
+3        relative mass balance error     % = m^3/m^3 in system x 100
+4        accumulative absolute mass      m^3
+         balance error
+5        accumulative relative mass      % = m^3/m^3 in system x 100
+         balance error

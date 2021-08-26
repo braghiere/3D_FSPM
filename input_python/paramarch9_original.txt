@@ -1,0 +1,23 @@
+94      P_duree
+0.8     P_vitEmissionSem
+0.7     P_propDiamSem
+2       P_nbMaxSem
+5       P_ageEmissionAdv
+5       P_dBaseMaxAdv
+0.4     P_vitEmissionAdv
+1       P_propDiamAdv
+30      P_nbMaxAdv
+0.13    P_diamMin
+1.3     P_diamMax
+32      P_penteVitDiam
+1       P_tendanceDirTropisme
+0.003   P_intensiteTropisme
+5       P_ageMaturitePointe
+2       P_distRamif (mm)
+0.08    P_propDiamRamif
+0.25    P_coeffVarDiamRamif
+0.12    P_TMD
+300     P_penteDureeCroissDiam2
+2000    P_penteDureeVieDiamTMD
+0       P_coeffCroissRad 
+1       feedback effect = 2; no feedback effect = 1
